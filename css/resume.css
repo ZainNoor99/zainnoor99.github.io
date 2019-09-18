@@ -1,0 +1,49 @@
+body {
+    background: #303030;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.resumecard {
+    max-width: 1200px;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+img {
+    margin-top: -50px;
+}
+
+ul {
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 10px;
+    background: white;
+    border-radius: 25px;
+}
+
+ul li {
+    width: 25%;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+li a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #303030;
+}
+
+li a:hover {
+    color:#64b5f6;
+    transition: .3s;
+}
