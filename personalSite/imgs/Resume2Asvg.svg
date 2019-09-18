@@ -1,0 +1,324 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1224 1584" width="1224" height="1584">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 0L1224 0L1224 1584L0 1584Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="M63.12 1332L629.66 1332L629.66 1302.91L63.12 1302.91L63.12 1332Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp3">
+			<path d="M629.66 1332L1052.58 1332L1052.58 1302.91L629.66 1302.91L629.66 1332Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp4">
+			<path d="M63.12 1361.04L629.66 1361.04L629.66 1332L63.12 1332L63.12 1361.04Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp5">
+			<path d="M629.66 1361.04L1052.58 1361.04L1052.58 1332L629.66 1332L629.66 1361.04Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp6">
+			<path d="M63.12 1390.08L629.66 1390.08L629.66 1361.04L63.12 1361.04L63.12 1390.08Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp7">
+			<path d="M629.66 1390.08L1052.58 1390.08L1052.58 1361.04L629.66 1361.04L629.66 1390.08Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 96px;fill: #64b5f6;font-family: "Roboto";font-weight: 700 } 
+		.shp1 { fill: #ffffff } 
+		.txt2 { font-size: 22px;fill: #222222;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt3 { font-size: 26px;fill: #64b5f6;font-family: "Roboto";font-weight: 700 } 
+		.txt4 { font-size: 22px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt5 { font-size: 22px;fill: #000000;font-family: "Roboto";font-weight: 400;font-style: italic } 
+		.txt6 { font-size: 22px;line-height: 29px;fill: #000000;font-family: "Symbol" } 
+		.txt7 { font-size: 22px;line-height: 29px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt8 { font-size: 22px;line-height: 27px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt9 { font-size: 22px;line-height: 27px;fill: #000000;font-family: "Roboto";font-weight: 400;font-style: italic } 
+		.txt10 { font-size: 22px;line-height: 29px;fill: #000000;font-family: "Calibri" } 
+		.txt11 { font-size: 26px;line-height: 29px;fill: #64b5f6;font-family: "Roboto";font-weight: 700 } 
+		.txt12 { font-size: 22px;line-height: 29px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt13 { font-size: 22px;line-height: 28px;fill: #000000;font-family: "Symbol" } 
+		.txt14 { font-size: 22px;line-height: 28px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt15 { font-size: 22px;line-height: 29px;fill: #000000;font-family: "Roboto Slab";font-weight: 700 } 
+		.txt16 { font-size: 22px;line-height: 29px;fill: #000000;font-family: "Calibri";font-weight: bold } 
+		.txt17 { font-size: 26px;line-height: 29px;fill: #64b5f6;font-family: "Roboto Condensed";font-weight: 700 } 
+		.txt18 { font-size: 26px;line-height: 31px;fill: #64b5f6;font-family: "Roboto";font-weight: 700 } 
+		.txt19 { font-size: 22px;line-height: 31px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt20 { font-size: 22px;line-height: 31px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+	</style>
+	<g id="Page 1" clip-path="url(#cp1)">
+		<text id="Zain Noor  " style="transform: matrix(1,0,0,1,399.94,163.24)" >
+			<tspan x="0" y="0" class="txt0">Zain Noor </tspan>
+		</text>
+		<path id="Path 2" class="shp1" d="M356.02 216.28L868.04 216.28L868.04 187.24L356.02 187.24L356.02 216.28Z" />
+		<text id=" zain.noor@uwaterloo.ca | github" style="transform: matrix(1,0,0,1,356.02,210.28)" >
+			<tspan x="0" y="0" class="txt2"> zain.noor@uwaterloo.ca | github.com/zainnoor99 </tspan>
+		</text>
+		<text id="EXPERIENCE  " style="transform: matrix(1,0,0,1,72,241)" >
+			<tspan x="0" y="0" class="txt3">EXPERIENCE </tspan>
+		</text>
+		<text id="Elastic.io  " style="transform: matrix(1,0,0,1,72,268.36)" >
+			<tspan x="0" y="0" class="txt4">Elastic.io </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,216.04,268.36)" >
+			<tspan x="0" y="0" class="txt4"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,288.04,268.36)" >
+			<tspan x="0" y="0" class="txt4"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,360.1,268.36)" >
+			<tspan x="0" y="0" class="txt4"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,432.1,268.36)" >
+			<tspan x="0" y="0" class="txt4"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,504.1,268.36)" >
+			<tspan x="0" y="0" class="txt4"> </tspan>
+		</text>
+		<text id="                                " style="transform: matrix(1,0,0,1,576.1,268.36)" >
+			<tspan x="0" y="0" class="txt4" dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" >                                                                              Bonn, Germany  </tspan>
+		</text>
+		<text id="Software Engineering Intern     " style="transform: matrix(1,0,0,1,72,279.304)" >
+			<tspan x="0" y="22" class="txt5">Software Engineering Intern                                                                                                               May 2019 –April 2019 </tspan>
+			<tspan x="0" y="46.64" class="txt6">• </tspan>
+		</text>
+		<text id="Implemented feature to create or" style="transform: matrix(1,0,0,1,108,307.864)" >
+			<tspan x="0" y="22" class="txt7">Implemented feature to create order invoices and to set orders as shipped in Magento using </tspan>
+			<tspan x="0" y="46.64" class="txt7">JavaScript and Node.JS </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,381.4)" >
+			<tspan x="0" y="0" class="txt6">• </tspan>
+		</text>
+		<text id="Refactored Filter component to m" style="transform: matrix(1,0,0,1,108,365.944)" >
+			<tspan x="0" y="22" class="txt7">Refactored Filter component to make use of JSONata expressions and added error assertion </tspan>
+			<tspan x="0" y="46.64" class="txt7">functionality in order to filter JSON data </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,439.54)" >
+			<tspan x="0" y="0" class="txt6">• </tspan>
+		</text>
+		<text id="Pared down backlog by 10% workin" style="transform: matrix(1,0,0,1,108,439.54)" >
+			<tspan x="0" y="0" class="txt7">Pared down backlog by 10% working on bugs, issues, and implementing new features </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,468.34)" >
+			<tspan x="0" y="0" class="txt6">• </tspan>
+		</text>
+		<text id="Created unit and integration tes" style="transform: matrix(1,0,0,1,108,452.884)" >
+			<tspan x="0" y="22" class="txt7">Created unit and integration tests to ensure functionality of components using Mochas testing </tspan>
+			<tspan x="0" y="46.64" class="txt7">framework, Chai’s assertion library, and Sinon.JS </tspan>
+		</text>
+		<text id="  First Robotics    " style="transform: matrix(1,0,0,1,72,510.964)" >
+			<tspan x="0" y="22" class="txt7"> </tspan>
+			<tspan x="0" y="46.64" class="txt8">First Robotics   </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,288.04,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,360.1,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,432.1,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,504.1,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,576.1,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,648.14,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,720.14,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,792.14,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,864.2,553.3)" >
+			<tspan x="0" y="0" class="txt8"> </tspan>
+		</text>
+		<text id=" Mississauga, Canada  " style="transform: matrix(1,0,0,1,936.2,553.3)" >
+			<tspan x="0" y="0" class="txt8"> Mississauga, Canada </tspan>
+		</text>
+		<text id="Team Captain                    " style="transform: matrix(1,0,0,1,72,564.244)" >
+			<tspan x="0" y="22" class="txt9">Team Captain                                                                                                                          November 2016 – June 2018 </tspan>
+			<tspan x="0" y="46.64" class="txt6">• </tspan>
+		</text>
+		<text id="Led a team of 20 students made u" style="transform: matrix(1,0,0,1,108,592.804)" >
+			<tspan x="0" y="22" class="txt7">Led a team of 20 students made up of sub teams including Strategy, Mechanical, Electrical, Design, </tspan>
+			<tspan x="0" y="46.64" class="txt7">and Programming to the Ontario District Championship placing 36 out of 156 in Ontario </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,666.34)" >
+			<tspan x="0" y="0" class="txt6">• </tspan>
+		</text>
+		<text id="Mentored 12 junior members, sett" style="transform: matrix(1,0,0,1,108,650.884)" >
+			<tspan x="0" y="22" class="txt7">Mentored 12 junior members, setting them up to take on future leadership roles, out of which four </tspan>
+			<tspan x="0" y="46.64" class="txt7">went on to become team leads </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,724.46)" >
+			<tspan x="0" y="0" class="txt6">• </tspan>
+		</text>
+		<text id="Modeled autonomous maneuvers for" style="transform: matrix(1,0,0,1,108,709.004)" >
+			<tspan x="0" y="22" class="txt7">Modeled autonomous maneuvers for programming team to implement resulting in one of the most </tspan>
+			<tspan x="0" y="46.64" class="txt7">consistent autonomous modes across all teams with over a 95% on target rate </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,72,780.14)" >
+			<tspan x="0" y="0" class="txt10"> </tspan>
+		</text>
+		<text id="PROJECTS  " style="transform: matrix(1,0,0,1,72,810.86)" >
+			<tspan x="0" y="0" class="txt11">PROJECTS </tspan>
+		</text>
+		<path id="Path 39" class="shp1" d="M261.16 843.98L375.69 843.98L375.69 817.58L261.16 817.58L261.16 843.98Z" />
+		<text id="Write Up – write-up.netlify.com " style="transform: matrix(1,0,0,1,72,823.004)" >
+			<tspan x="0" y="22" class="txt12">Write Up – write-up.netlify.com  </tspan>
+			<tspan x="0" y="46.64" class="txt13">• </tspan>
+		</text>
+		<text id="Created a web app which allows u" style="transform: matrix(1,0,0,1,108,866.78)" >
+			<tspan x="0" y="0" class="txt14">Created a web app which allows users to save, delete, and re-order notes </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,895.82)" >
+			<tspan x="0" y="0" class="txt13">• </tspan>
+		</text>
+		<text id="Utilizes asynchronous function c" style="transform: matrix(1,0,0,1,108,895.82)" >
+			<tspan x="0" y="0" class="txt14">Utilizes asynchronous function calls in JavaScript, allowing the code to be run in a specific order </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,924.86)" >
+			<tspan x="0" y="0" class="txt13">• </tspan>
+		</text>
+		<text id="Implemented functions, callback " style="transform: matrix(1,0,0,1,108,909.404)" >
+			<tspan x="0" y="22" class="txt14">Implemented functions, callback functions, arrays, and objects/classes using JavaScript to control </tspan>
+			<tspan x="0" y="46.64" class="txt7">DOM and JSON components </tspan>
+		</text>
+		<text id="  Second Guesser – second-guesse" style="transform: matrix(1,0,0,1,72,967.484)" >
+			<tspan x="0" y="22" class="txt15"> </tspan>
+			<tspan x="0" y="46.64" class="txt8">Second Guesser – second-guesser.netlify.com </tspan>
+			<tspan x="0" y="71.28" class="txt6">• </tspan>
+		</text>
+		<path id="Path 47" class="shp1" d="M259 1015.34L529.04 1015.34L529.04 988.94L259 988.94L259 1015.34Z" />
+		<text id="Created a hangman game which all" style="transform: matrix(1,0,0,1,108,1022.984)" >
+			<tspan x="0" y="22" class="txt7">Created a hangman game which allows users to guess a puzzle by inputting letters from their </tspan>
+			<tspan x="0" y="46.64" class="txt7">keyboard using JavaScript </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1096.52)" >
+			<tspan x="0" y="0" class="txt6">• </tspan>
+		</text>
+		<text id="Leverages the Fetch API in JavaS" style="transform: matrix(1,0,0,1,108,1096.52)" >
+			<tspan x="0" y="0" class="txt7">Leverages the Fetch API in JavaScript to generate random puzzles for the player </tspan>
+		</text>
+		<text id="  Meme-Survival – View on GitHub" style="transform: matrix(1,0,0,1,72,1110.104)" >
+			<tspan x="0" y="22" class="txt7"> </tspan>
+			<tspan x="0" y="46.64" class="txt8">Meme-Survival – View on GitHub </tspan>
+			<tspan x="0" y="71.28" class="txt6">• </tspan>
+		</text>
+		<text id="Created a birds-eye view shooter" style="transform: matrix(1,0,0,1,108,1181)" >
+			<tspan x="0" y="0" class="txt7">Created a birds-eye view shooter using Java in which the user must eliminate memes to survive </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1209.8)" >
+			<tspan x="0" y="0" class="txt6">• </tspan>
+		</text>
+		<text id="Applied object-oriented-programm" style="transform: matrix(1,0,0,1,108,1194.344)" >
+			<tspan x="0" y="22" class="txt7">Applied object-oriented-programming principles to hold ammunition and hearts in arrays and to </tspan>
+			<tspan x="0" y="46.64" class="txt7">spawn enemies </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,72,1265.72)" >
+			<tspan x="0" y="0" class="txt16"> </tspan>
+		</text>
+		<text id="SKILLS   " style="transform: matrix(1,0,0,1,72,1296.44)" >
+			<tspan x="0" y="0" class="txt11">SKILLS  </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,216.04,1296.44)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,288.04,1296.44)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,360.1,1296.44)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,432.1,1296.44)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,504.1,1296.44)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="         TOOLS  " style="transform: matrix(1,0,0,1,576.1,1296.44)" >
+			<tspan x="0" y="0" class="txt17" dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" >         TOOLS </tspan>
+		</text>
+		<g id="Mask" clip-path="url(#cp2)">
+			<text id="•  " style="transform: matrix(1,0,0,1,73.68,1326)" >
+				<tspan x="0" y="0" class="txt6">• </tspan>
+			</text>
+			<text id="JavaScript, HTML/CSS  " style="transform: matrix(1,0,0,1,109.68,1326)" >
+				<tspan x="0" y="0" class="txt7">JavaScript, HTML/CSS </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp3)">
+			<text id="•  " style="transform: matrix(1,0,0,1,640.46,1326)" >
+				<tspan x="0" y="0" class="txt6">• </tspan>
+			</text>
+			<text id="Eclipse, VS Code, WebStorm  " style="transform: matrix(1,0,0,1,676.46,1326)" >
+				<tspan x="0" y="0" class="txt7">Eclipse, VS Code, WebStorm </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp4)">
+			<text id="•  " style="transform: matrix(1,0,0,1,73.68,1355.04)" >
+				<tspan x="0" y="0" class="txt6">• </tspan>
+			</text>
+			<text id="Java  " style="transform: matrix(1,0,0,1,109.68,1355.04)" >
+				<tspan x="0" y="0" class="txt7">Java </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp5)">
+			<text id="•  " style="transform: matrix(1,0,0,1,640.46,1355.04)" >
+				<tspan x="0" y="0" class="txt6">• </tspan>
+			</text>
+			<text id="ZenHub  " style="transform: matrix(1,0,0,1,676.46,1355.04)" >
+				<tspan x="0" y="0" class="txt7">ZenHub </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp6)">
+			<text id="•  " style="transform: matrix(1,0,0,1,73.68,1384.08)" >
+				<tspan x="0" y="0" class="txt6">• </tspan>
+			</text>
+			<text id="Python  " style="transform: matrix(1,0,0,1,109.68,1384.08)" >
+				<tspan x="0" y="0" class="txt7">Python </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp7)">
+			<text id="•  " style="transform: matrix(1,0,0,1,640.46,1384.08)" >
+				<tspan x="0" y="0" class="txt6">• </tspan>
+			</text>
+			<text id="Git  " style="transform: matrix(1,0,0,1,676.46,1384.08)" >
+				<tspan x="0" y="0" class="txt7">Git </tspan>
+			</text>
+		</g>
+		<text id="  EDUCATION  " style="transform: matrix(1,0,0,1,72,1396.656)" >
+			<tspan x="0" y="26" class="txt17"> </tspan>
+			<tspan x="0" y="55.12" class="txt18">EDUCATION </tspan>
+		</text>
+		<text id="University of Waterloo  " style="transform: matrix(1,0,0,1,72,1473.36)" >
+			<tspan x="0" y="0" class="txt19">University of Waterloo </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,360.1,1473.36)" >
+			<tspan x="0" y="0" class="txt20"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,432.1,1473.36)" >
+			<tspan x="0" y="0" class="txt20"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,504.1,1473.36)" >
+			<tspan x="0" y="0" class="txt20"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,576.1,1473.36)" >
+			<tspan x="0" y="0" class="txt20"> </tspan>
+		</text>
+		<text id="                                " style="transform: matrix(1,0,0,1,648.14,1473.36)" >
+			<tspan x="0" y="0" class="txt20">                                        September 2018 – April 2023 </tspan>
+		</text>
+		<text id="Candidate for BASc in Management" style="transform: matrix(1,0,0,1,72,1501.92)" >
+			<tspan x="0" y="0" class="txt20">Candidate for BASc in Management Engineering</tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,-0.333,1,574.18,1501.92)" >
+			<tspan x="0" y="0" class="txt20"> </tspan>
+		</text>
+	</g>
+</svg>

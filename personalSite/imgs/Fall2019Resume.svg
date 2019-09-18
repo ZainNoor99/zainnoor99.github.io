@@ -1,0 +1,362 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1224 1584" width="1224" height="1584">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 0L1224 0L1224 1584L0 1584Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="M63.12 198.76L611.66 198.76L611.66 71.99L63.12 71.99L63.12 198.76Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp3">
+			<path d="M611.66 198.76L1151.28 198.76L1151.28 71.99L611.66 71.99L611.66 198.76Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp4">
+			<path d="M63.12 287.32L629.66 287.32L629.66 261.16L63.12 261.16L63.12 287.32Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp5">
+			<path d="M629.66 287.32L1052.58 287.32L1052.58 261.16L629.66 261.16L629.66 287.32Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp6">
+			<path d="M63.12 313.72L629.66 313.72L629.66 287.32L63.12 287.32L63.12 313.72Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp7">
+			<path d="M629.66 313.72L1052.58 313.72L1052.58 287.32L629.66 287.32L629.66 313.72Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp8">
+			<path d="M63.12 340.12L629.66 340.12L629.66 313.72L63.12 313.72L63.12 340.12Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp9">
+			<path d="M629.66 340.12L1052.58 340.12L1052.58 313.72L629.66 313.72L629.66 340.12Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 80px;fill: #64b5f6;font-family: "Roboto";font-weight: 700 } 
+		.shp1 { fill: #ffffff } 
+		.txt2 { font-size: 22px;fill: #222222;font-family: "Roboto";font-weight: 700 } 
+		.txt3 { font-size: 24px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt4 { font-size: 24px;fill: #222222;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt5 { font-size: 26px;fill: #64b5f6;font-family: "Roboto Condensed";font-weight: 700 } 
+		.txt6 { font-size: 26px;line-height: 31px;fill: #64b5f6;font-family: "Roboto Condensed";font-weight: 700 } 
+		.txt7 { font-size: 20px;line-height: 31px;fill: #000000;font-family: "Symbol" } 
+		.txt8 { font-size: 20px;line-height: 31px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt9 { font-size: 22px;line-height: 31px;fill: #222222;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt10 { font-size: 26px;line-height: 31px;fill: #64b5f6;font-family: "Roboto";font-weight: 700 } 
+		.txt11 { font-size: 22px;line-height: 31px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt12 { font-size: 22px;line-height: 31px;fill: #000000;font-family: "Roboto";font-weight: 400;font-style: italic } 
+		.txt13 { font-size: 20px;line-height: 26px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt14 { font-size: 20px;line-height: 26px;fill: #000000;font-family: "Symbol" } 
+		.txt15 { font-size: 20px;line-height: 26px;fill: #000000;font-family: "Roboto Slab";font-weight: 700 } 
+		.txt16 { font-size: 22px;line-height: 26px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt17 { font-size: 22px;line-height: 27px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt18 { font-size: 20px;line-height: 27px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt19 { font-size: 22px;line-height: 27px;fill: #000000;font-family: "Roboto";font-weight: 400;font-style: italic } 
+		.txt20 { font-size: 20px;line-height: 27px;fill: #000000;font-family: "Symbol" } 
+		.txt21 { font-size: 20px;line-height: 27px;fill: #000000;font-family: "Roboto Slab";font-weight: 400 } 
+		.txt22 { font-size: 22px;line-height: 26px;fill: #000000;font-family: "Calibri" } 
+		.txt23 { font-size: 26px;line-height: 26px;fill: #64b5f6;font-family: "Roboto";font-weight: 700 } 
+		.txt24 { font-size: 22px;line-height: 26px;fill: #000000;font-family: "Roboto";font-weight: 700 } 
+		.txt25 { font-size: 22px;line-height: 26px;fill: #000000;font-family: "Symbol" } 
+		.txt26 { font-size: 22px;line-height: 26px;fill: #000000;font-family: "Roboto Slab";font-weight: 700 } 
+		.txt27 { font-size: 26px;line-height: 26px;fill: #64b5f6;font-family: "Roboto Condensed";font-weight: 700 } 
+	</style>
+	<g id="Page 1" clip-path="url(#cp1)">
+		<g id="Mask" clip-path="url(#cp2)">
+			<text id="Zain Noor  " style="transform: matrix(1,0,0,1,73.68,148.12)" >
+				<tspan x="0" y="0" class="txt0">Zain Noor </tspan>
+			</text>
+			<path id="Path 3" class="shp1" d="M73.68 194.44L327.4 194.44L327.4 168.04L73.68 168.04L73.68 194.44Z" />
+			<text id="Management Engineering  " style="transform: matrix(1,0,0,1,73.68,188.92)" >
+				<tspan x="0" y="0" class="txt2">Management Engineering </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp3)">
+			<path id="Path 7" class="shp1" d="M868.52 103.68L1140.48 103.68L1140.48 72L868.52 72L868.52 103.68Z" />
+			<text id="zain.noor@uwaterloo.ca  " style="transform: matrix(1,0,0,1,868.52,97.2)" >
+				<tspan x="0" y="0" class="txt3">zain.noor@uwaterloo.ca </tspan>
+			</text>
+			<path id="Path 9" class="shp1" d="M876.2 135.36L1140.48 135.36L1140.48 103.68L876.2 103.68L876.2 135.36Z" />
+			<text id="github.com/zainnoor99  " style="transform: matrix(1,0,0,1,876.2,128.88)" >
+				<tspan x="0" y="0" class="txt4">github.com/zainnoor99 </tspan>
+			</text>
+			<path id="Path 11" class="shp1" d="M822.38 167.08L1140.48 167.08L1140.48 135.35L822.38 135.35L822.38 167.08Z" />
+			<text id="linkedin.com/in/zainnoor99  " style="transform: matrix(1,0,0,1,822.38,160.6)" >
+				<tspan x="0" y="0" class="txt3">linkedin.com/in/zainnoor99 </tspan>
+			</text>
+			<text id="zainnoor.me  " style="transform: matrix(1,0,0,1,998.12,192.28)" >
+				<tspan x="0" y="0" class="txt3">zainnoor.me </tspan>
+			</text>
+		</g>
+		<text id="  LANGUAGES   " style="transform: matrix(1,0,0,1,72,205.336)" >
+			<tspan x="0" y="26" class="txt5"> </tspan>
+			<tspan x="0" y="55.12" class="txt6">LANGUAGES  </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,288.04,254.68)" >
+			<tspan x="0" y="0" class="txt6"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,360.1,254.68)" >
+			<tspan x="0" y="0" class="txt6"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,432.1,254.68)" >
+			<tspan x="0" y="0" class="txt6"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,504.1,254.68)" >
+			<tspan x="0" y="0" class="txt6"> </tspan>
+		</text>
+		<text id="          TOOLS  " style="transform: matrix(1,0,0,1,576.1,254.68)" >
+			<tspan x="0" y="0" class="txt6" dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" >          TOOLS </tspan>
+		</text>
+		<g id="Mask" clip-path="url(#cp4)">
+			<text id="•  " style="transform: matrix(1,0,0,1,73.68,281.8)" >
+				<tspan x="0" y="0" class="txt7">• </tspan>
+			</text>
+			<text id="JavaScript, HTML/CSS  " style="transform: matrix(1,0,0,1,109.68,281.8)" >
+				<tspan x="0" y="0" class="txt8">JavaScript, HTML/CSS </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp5)">
+			<text id="•  " style="transform: matrix(1,0,0,1,640.46,281.8)" >
+				<tspan x="0" y="0" class="txt7">• </tspan>
+			</text>
+			<text id="WebStorm, Eclipse, VS Code   " style="transform: matrix(1,0,0,1,676.46,281.8)" >
+				<tspan x="0" y="0" class="txt8">WebStorm, Eclipse, VS Code  </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp6)">
+			<text id="•  " style="transform: matrix(1,0,0,1,73.68,308.2)" >
+				<tspan x="0" y="0" class="txt7">• </tspan>
+			</text>
+			<text id="Java  " style="transform: matrix(1,0,0,1,109.68,308.2)" >
+				<tspan x="0" y="0" class="txt8">Java </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp7)">
+			<text id="•  " style="transform: matrix(1,0,0,1,640.46,308.2)" >
+				<tspan x="0" y="0" class="txt7">• </tspan>
+			</text>
+			<text id="ZenHub, Confluence  " style="transform: matrix(1,0,0,1,676.46,308.2)" >
+				<tspan x="0" y="0" class="txt8">ZenHub, Confluence </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp8)">
+			<text id="•  " style="transform: matrix(1,0,0,1,73.68,334.6)" >
+				<tspan x="0" y="0" class="txt7">• </tspan>
+			</text>
+			<text id="Python  " style="transform: matrix(1,0,0,1,109.68,334.6)" >
+				<tspan x="0" y="0" class="txt8">Python </tspan>
+			</text>
+		</g>
+		<g id="Mask" clip-path="url(#cp9)">
+			<text id="•  " style="transform: matrix(1,0,0,1,640.46,334.6)" >
+				<tspan x="0" y="0" class="txt7">• </tspan>
+			</text>
+			<text id="NodeJS, Mocha, Chai.JS, Sinon.JS" style="transform: matrix(1,0,0,1,676.46,334.6)" >
+				<tspan x="0" y="0" class="txt8">NodeJS, Mocha, Chai.JS, Sinon.JS </tspan>
+			</text>
+		</g>
+		<text id="  " style="transform: matrix(1,0,0,1,72,363.16)" >
+			<tspan x="0" y="0" class="txt9"> </tspan>
+		</text>
+		<text id="EXPERIENCE  " style="transform: matrix(1,0,0,1,72,393.88)" >
+			<tspan x="0" y="0" class="txt10">EXPERIENCE </tspan>
+		</text>
+		<text id="Elastic.io  " style="transform: matrix(1,0,0,1,72,421.24)" >
+			<tspan x="0" y="0" class="txt11">Elastic.io </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,216.04,421.24)" >
+			<tspan x="0" y="0" class="txt11"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,288.04,421.24)" >
+			<tspan x="0" y="0" class="txt11"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,360.1,421.24)" >
+			<tspan x="0" y="0" class="txt11"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,432.1,421.24)" >
+			<tspan x="0" y="0" class="txt11"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,504.1,421.24)" >
+			<tspan x="0" y="0" class="txt11"> </tspan>
+		</text>
+		<text id="                                " style="transform: matrix(1,0,0,1,576.1,421.24)" >
+			<tspan x="0" y="0" class="txt11" dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" >                                                                                Bonn, Germany  </tspan>
+		</text>
+		<text id="Software Engineering Intern     " style="transform: matrix(1,0,0,1,72,447.7)" >
+			<tspan x="0" y="0" class="txt12">Software Engineering Intern                                                                                                              May 2019 –August 2019 </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,474.1)" >
+			<tspan x="0" y="0" class="txt7">• </tspan>
+		</text>
+		<text id="Increased Magento component usag" style="transform: matrix(1,0,0,1,108,460.156)" >
+			<tspan x="0" y="20" class="txt8">Increased Magento component usage by Implementing feature to create order invoices and to set orders as </tspan>
+			<tspan x="0" y="42.4" class="txt13">shipped in Magento using JavaScript and Node.JS </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,526.9)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Expanded test coverage of Filter" style="transform: matrix(1,0,0,1,108,512.956)" >
+			<tspan x="0" y="20" class="txt13">Expanded test coverage of Filter component by adding support for JSONata expressions and added error </tspan>
+			<tspan x="0" y="42.4" class="txt13">assertion functionality in order to filter JSON data  </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,579.7)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Pared down backlog by 10% workin" style="transform: matrix(1,0,0,1,108,579.7)" >
+			<tspan x="0" y="0" class="txt13">Pared down backlog by 10% working on bugs, issues, and implementing new features as part of the sprint team </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,606.1)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Created unit and integration tes" style="transform: matrix(1,0,0,1,108,592.156)" >
+			<tspan x="0" y="20" class="txt13">Created unit and integration tests to ensure functionality of components using Mocha’s testing framework, </tspan>
+			<tspan x="0" y="42.4" class="txt15">Chai’s assertion library, and Sinon.JS’ s fakes </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,658.66)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Worked with CircleCi to confirm " style="transform: matrix(1,0,0,1,108,658.66)" >
+			<tspan x="0" y="0" class="txt13">Worked with CircleCi to confirm all test endpoints and HTTP Requests were functioning as intended </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,685.06)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Deployed multiple integration/da" style="transform: matrix(1,0,0,1,108,685.06)" >
+			<tspan x="0" y="0" class="txt13">Deployed multiple integration/data pipelines based on client criteria and incoming data </tspan>
+		</text>
+		<text id="  First Robotics    " style="transform: matrix(1,0,0,1,72,698.164)" >
+			<tspan x="0" y="22" class="txt16"> </tspan>
+			<tspan x="0" y="46.64" class="txt17">First Robotics   </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,288.04,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,360.1,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,432.1,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,504.1,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,576.1,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,648.14,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,720.14,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,792.14,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,864.2,740.54)" >
+			<tspan x="0" y="0" class="txt17"> </tspan>
+		</text>
+		<text id="     Mississauga, Canada  " style="transform: matrix(1,0,0,1,936.2,740.54)" >
+			<tspan x="0" y="0" class="txt18">     Mississauga, Canada </tspan>
+		</text>
+		<text id="Team Captain                    " style="transform: matrix(1,0,0,1,72,766.94)" >
+			<tspan x="0" y="0" class="txt19">Team Captain                                                                                                                               November 2016 – June 2018 </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,793.34)" >
+			<tspan x="0" y="0" class="txt20">• </tspan>
+		</text>
+		<text id="Led a team of 20 students made u" style="transform: matrix(1,0,0,1,108,779.396)" >
+			<tspan x="0" y="20" class="txt21">Led a team of 20 students made up of sub teams including Strategy, Mechanical, Electrical, Design, and </tspan>
+			<tspan x="0" y="42.4" class="txt13">Programming to the Ontario District Championship placing 36 out of 156 in Ontario </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,846.14)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Mentored 12 junior members, sett" style="transform: matrix(1,0,0,1,108,832.196)" >
+			<tspan x="0" y="20" class="txt13">Mentored 12 junior members, setting them up to take on future leadership roles, out of which four went on to </tspan>
+			<tspan x="0" y="42.4" class="txt13">become team leads </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,898.94)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Modeled autonomous maneuvers for" style="transform: matrix(1,0,0,1,108,884.996)" >
+			<tspan x="0" y="20" class="txt13">Modeled autonomous maneuvers for programming team to implement resulting in one of the most consistent </tspan>
+			<tspan x="0" y="42.4" class="txt13">autonomous modes across all teams with over a 95% on target rate </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,72,951.74)" >
+			<tspan x="0" y="0" class="txt22"> </tspan>
+		</text>
+		<text id="PROJECTS  " style="transform: matrix(1,0,0,1,72,982.46)" >
+			<tspan x="0" y="0" class="txt23">PROJECTS </tspan>
+		</text>
+		<path id="Path 87" class="shp1" d="M261.16 1015.34L375.69 1015.34L375.69 988.94L261.16 988.94L261.16 1015.34Z" />
+		<text id="Write Up – write-up.netlify.com " style="transform: matrix(1,0,0,1,72,1009.82)" >
+			<tspan x="0" y="0" class="txt24">Write Up – write-up.netlify.com  </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1036.28)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Built a notes app which utilizes" style="transform: matrix(1,0,0,1,108,1036.28)" >
+			<tspan x="0" y="0" class="txt13">Built a notes app which utilizes localStorage for data persistence with JavaScript </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1063.64)" >
+			<tspan x="0" y="0" class="txt25">• </tspan>
+		</text>
+		<text id="Implemented callback functions, " style="transform: matrix(1,0,0,1,108,1063.64)" >
+			<tspan x="0" y="0" class="txt13">Implemented callback functions, arrays, and objects to control DOM and JSON elements </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,108,1092.2)" >
+			<tspan x="0" y="0" class="txt26"> </tspan>
+		</text>
+		<path id="Path 94" class="shp1" d="M259 1124.6L529.04 1124.6L529.04 1098.2L259 1098.2L259 1124.6Z" />
+		<text id="Second Guesser – second-guesser." style="transform: matrix(1,0,0,1,72,1119.08)" >
+			<tspan x="0" y="0" class="txt24">Second Guesser – second-guesser.netlify.com </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1145.48)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Developed a hangman game which l" style="transform: matrix(1,0,0,1,108,1145.48)" >
+			<tspan x="0" y="0" class="txt13">Developed a hangman game which leverages the Fetch API to make requests to an endpoint using JavaScript </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1171.88)" >
+			<tspan x="0" y="0" class="txt14">• </tspan>
+		</text>
+		<text id="Utilized async/await to handle p" style="transform: matrix(1,0,0,1,108,1171.88)" >
+			<tspan x="0" y="0" class="txt13">Utilized async/await to handle promise resolution/rejection, allowing code to run asynchronously </tspan>
+		</text>
+		<text id="  Meme-Survival – View on GitHub" style="transform: matrix(1,0,0,1,72,1184.984)" >
+			<tspan x="0" y="22" class="txt16"> </tspan>
+			<tspan x="0" y="46.64" class="txt17">Meme-Survival – View on GitHub </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1253.72)" >
+			<tspan x="0" y="0" class="txt20">• </tspan>
+		</text>
+		<text id="Created a birds-eye view shooter" style="transform: matrix(1,0,0,1,108,1253.72)" >
+			<tspan x="0" y="0" class="txt21">Created a birds-eye view shooter using the libGDX framework in Java </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1280.12)" >
+			<tspan x="0" y="0" class="txt20">• </tspan>
+		</text>
+		<text id="Gained experience with the SDLC " style="transform: matrix(1,0,0,1,108,1280.12)" >
+			<tspan x="0" y="0" class="txt21">Gained experience with the SDLC by iteratively testing my code and releasing Alpha, Beta, and Final versions </tspan>
+		</text>
+		<text id="•  " style="transform: matrix(1,0,0,1,72,1306.52)" >
+			<tspan x="0" y="0" class="txt20">• </tspan>
+		</text>
+		<text id="Applied Object-Oriented-Programm" style="transform: matrix(1,0,0,1,108,1292.576)" >
+			<tspan x="0" y="20" class="txt21">Applied Object-Oriented-Programming principles such as encapsulation, abstraction, and inheritance to </tspan>
+			<tspan x="0" y="42.4" class="txt13">handle spawning hearts, enemies, and bullets </tspan>
+		</text>
+		<text id="  EDUCATION  " style="transform: matrix(1,0,0,1,72,1345.056)" >
+			<tspan x="0" y="26" class="txt23"> </tspan>
+			<tspan x="0" y="55.12" class="txt10">EDUCATION </tspan>
+		</text>
+		<text id="University of Waterloo  " style="transform: matrix(1,0,0,1,72,1421.76)" >
+			<tspan x="0" y="0" class="txt11">University of Waterloo </tspan>
+		</text>
+		<text id="Candidate for BASc in Management" style="transform: matrix(1,0,0,1,72,1434.216)" >
+			<tspan x="0" y="20" class="txt8">Candidate for BASc in Management Engineering Class of 2023 </tspan>
+			<tspan x="0" y="42.4" class="txt13">Relevant Courses: Intro to Computer Programming (89%), Data Structures and Algorithms (TBD) </tspan>
+		</text>
+		<text id="  " style="transform: matrix(1,0,0,1,72,1504.56)" >
+			<tspan x="0" y="0" class="txt27"> </tspan>
+		</text>
+	</g>
+</svg>
