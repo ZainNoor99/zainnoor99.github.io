@@ -1,0 +1,612 @@
+body {
+    background: #F6F4F3;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    font-size: 10px;
+    color: #303030;
+}
+
+.aboutme {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.picside {
+    background-color: #33658A;
+    max-width: 50%;
+    height: 100%;
+    justify-content: left;
+}
+
+.linkedinpic {
+    height: 75%;
+    margin-right: 0;
+    margin-left: 20vw;
+    margin-top: 12.5vh;
+}
+
+.aboutme .infoside {
+    max-width: 50%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.para {
+    text-align: left;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+
+.hello {
+    font-size: 3.5em;
+    color: #F03A47;
+    text-align: left;
+}
+
+.namebold {
+    color: #303030;
+    text-shadow: 4px 0 0 currentColor;
+    font-size: 11.01em;
+    font-family: "Archivo", sans-serif;
+    font-weight: bolder;
+}
+
+.aboutme .infoside p {
+    color: #303030;
+    font-size: 2em;
+    max-width: 30vw;
+}
+
+.top {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.svg {
+    margin-top: -10vh;
+}
+
+svg {
+    height: 70vh;
+    width: 100vw;
+}
+
+.myname {
+    font-size: 5em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Archivo', sans-serif;
+}
+
+.coloredtext {
+    color: #F03A47;
+}
+
+.icons {
+    display: flex;
+    font-size: 10em;
+    margin-left: 10vw;
+    margin-top: 8vh;
+}
+
+.btn {
+    color: #F03A47;
+    justify-content: space-between;
+    margin-right: 26%;
+    transition: .3s;
+}
+
+.btn:hover {
+    color: #303030;
+    transform: scale(1.5);
+}
+
+nav {
+    margin-right: 5%;    
+    height: 20vh;
+    width: 100vw;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 5%;
+}
+
+#Head {
+    stroke: #33658A;
+    fill-opacity: 1;
+    stroke-dasharray: 2418.322998046875;
+    stroke-dashoffset: 2418.322998046875;
+    animation: dashHead 6s linear;
+}
+
+@keyframes dashHead {
+    from {
+        stroke: #33658A;
+        stroke-dashoffset: 2418.322998046875;
+        stroke-dashoffset: -2418.322998046875;
+        fill-opacity: 0;
+    }
+    to {
+        stroke-dashoffset: 2418.322998046875;
+        stroke: #F03A47;
+        fill-opacity: 1;
+    }
+}
+
+#Nose {
+    stroke: #33658A;
+    stroke-dasharray: 392.4127197265625;
+    stroke-dashoffset: 392.4127197265625;
+    fill-opacity: 1;
+    animation: dashNose 6s linear;
+}
+
+@keyframes dashNose {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 392.4127197265625;
+        stroke-dashoffset: -392.4127197265625;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 392.4127197265625;
+        stroke: #F03A47;
+    }
+}
+
+#Chin_Beard {
+    stroke: #33658A;
+    stroke-dasharray: 356.55267333984375;
+    stroke-dashoffset: 356.55267333984375;
+    fill-opacity: 1;
+    animation: dashChin_Beard 6s linear;
+}
+
+@keyframes dashChin_Beard {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 356.55267333984375;
+        stroke-dashoffset: -356.55267333984375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 356.55267333984375;
+        stroke: #F03A47;
+    }
+}
+
+#Top_Hair {
+    stroke: #33658A;
+    stroke-dasharray: 1577.5140380859375;
+    stroke-dashoffset: 1577.5140380859375;
+    fill-opacity: 1;
+    animation: dashTop_Hair 6s linear;
+}
+
+@keyframes dashTop_Hair {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 1577.5140380859375;
+        stroke-dashoffset: -1577.5140380859375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 1577.5140380859375;
+        stroke: #F03A47;
+    }
+}
+
+#Beard_Hair {
+    stroke: #33658A;
+    stroke-dasharray: 2826.13037109375;
+    stroke-dashoffset: 2826.13037109375;
+    fill-opacity: 1;
+    animation: dashBeard_Hair 6s linear;
+}
+
+@keyframes dashBeard_Hair {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 2826.13037109375;
+        stroke-dashoffset: -2826.13037109375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 2826.13037109375;
+        stroke: #F03A47;
+    }
+}
+
+#Eyebrows {
+    stroke: #33658A;
+    stroke-dasharray: 334.45965576171875;
+    stroke-dashoffset: 334.45965576171875;
+    fill-opacity: 1;
+    animation: dashEyebrows 6s linear;
+}
+
+@keyframes dashEyebrows {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 334.45965576171875;
+        stroke-dashoffset: -334.45965576171875;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 334.45965576171875;
+        stroke: #F03A47;
+    }
+}
+
+#Neck {
+    stroke: #33658A;
+    stroke-dasharray: 863.0379638671875;
+    stroke-dashoffset: 863.0379638671875;
+    fill-opacity: 1;
+    animation: dashNeck 6s linear;
+}
+
+@keyframes dashNeck {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 863.0379638671875;
+        stroke-dashoffset: -863.0379638671875;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 863.0379638671875;
+        stroke: #F03A47;
+    }
+}
+
+#Lens {
+    stroke: #33658A;
+    stroke-dasharray: 768.1332397460938;
+    stroke-dashoffset: 768.1332397460938;
+    fill-opacity: 1;
+    animation: dashLens 6s linear;
+}
+
+@keyframes dashLens {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 768.1332397460938;
+        stroke-dashoffset: -768.1332397460938;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 768.1332397460938;
+        stroke: #F03A47;
+    }
+}
+
+#Black_part_1 {
+    stroke: #33658A;
+    stroke-dasharray: 88.43235778808594;
+    stroke-dashoffset: 88.43235778808594;
+    fill-opacity: 1;
+    animation: dashBlack_part_1 6s linear;
+}
+
+@keyframes dashBlack_part_1 {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 88.43235778808594;
+        stroke-dashoffset: -88.43235778808594;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 88.43235778808594;
+        stroke: #F03A47;
+    }
+}
+
+#Black_part_2 {
+    stroke: #33658A;
+    stroke-dasharray: 298.1716003417969;
+    stroke-dashoffset: 298.1716003417969;
+    fill-opacity: 1;
+    animation: dashBlack_part_2 6s linear;
+}
+
+@keyframes dashBlack_part_2 {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 298.1716003417969;
+        stroke-dashoffset: -298.1716003417969;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 298.1716003417969;
+        stroke: #F03A47;
+    }
+}
+
+#White_part {
+    stroke: #33658A;
+    stroke-dasharray: 299.6165466308594;
+    stroke-dashoffset: 299.6165466308594;
+    fill-opacity: 1;
+    animation: dashWhite_part 6s linear;
+}
+
+@keyframes dashWhite_part {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 299.6165466308594;
+        stroke-dashoffset: -299.6165466308594;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 299.6165466308594;
+        stroke: #F03A47;
+    }
+}
+
+#Ear {
+    stroke: #33658A;
+    stroke-dasharray: 492.46600341796875;
+    stroke-dashoffset: 492.46600341796875;
+    fill-opacity: 1;
+    animation: dashEar 6s linear;
+}
+
+@keyframes dashEar {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 492.46600341796875;
+        stroke-dashoffset: -492.46600341796875;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 492.46600341796875;
+        stroke: #F03A47;
+    }
+}
+
+svg {
+    stroke-width: 3px;
+}
+
+#Shirt {
+    stroke: #33658A;
+    stroke-dasharray: 1424.636474609375;
+    stroke-dashoffset: 1424.636474609375;
+    fill-opacity: 1;
+    animation: dashShirt 6s linear;
+}
+
+@keyframes dashShirt {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 1424.636474609375;
+        stroke-dashoffset: 1424.636474609375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 1424.636474609375;
+        stroke: #F03A47;
+    }
+}
+
+.footer {
+    width: 100vw;
+    height: 15vh;
+    background: #33658A;
+}
+
+.resumesection a:hover {
+    text-decoration: none;
+    color: #64b5f6;
+}
+
+.resumesection a {
+    text-decoration: none;
+    color: #F03A47;
+    transition: .3s;
+}
+
+.resumesectionheading {
+    text-align: center;
+    font-size: 3em;
+    margin-right: 20vh;
+    margin-bottom: 15vh;
+}
+
+.resumesection {
+    margin-top: 20vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.projectpara a:hover {
+    text-decoration: none;
+    color: #F03A47;
+    transition: .3s;
+}
+
+.projectpara a {
+    text-decoration: none;
+    color: #64b5f6;
+}
+
+.projectpara span {
+    color: #64b5f6;
+}
+
+
+.writeupsvg {
+    margin-top: 10vh;
+    text-align: center;
+    height: 50vh;
+    transition: .3s;
+}
+
+.writeupsvg:hover {
+    opacity: .5;
+    transform: scale(.75);
+}
+
+.projectpara {
+    font-size: 3em;
+    text-align: left;
+}
+
+.projectname {
+    color: #64b5f6;
+    font-size: 7em;
+    text-align: left;
+}
+
+.projectsection {
+    max-width: 30vw;
+    margin-top: 30vh;
+    margin-left: 20vh;
+}
+
+.projectinfoside {
+    width: 50vw;
+    height: 100vh;
+}
+
+.backgroundforproject {
+    margin-top: 10%;
+    width: 100%;
+    height: 70%;
+    background-color: #F03A47;
+    margin-left: 7vw;
+    text-align: center;
+}
+
+.projectpictureside {
+    background-color: #33658A;
+    width: 50vw;
+    height: 100vh;
+}
+
+.individualprojects {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.projectssectionheading {
+    text-align: right;
+    font-size: 5em;
+    margin-right: 20vh;
+    margin-bottom: 15vh;
+}
+
+.projectssection {
+    margin-top: 20vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.worksection {
+    margin-top: 20vh;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+.worksectionheading {
+    font-size: 5em;
+    margin-left: 10vh;
+    margin-bottom: 15vh;
+}
+
+.workexperience {
+    display: flex;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.companyside {
+    width: 50vw;
+    height: 100vh;
+}
+
+.companysection {
+    max-width: 30vw;
+    margin-top: 30vh;
+    margin-left: 20vh;
+}
+
+.companyname {
+    color: #F03A47;
+    font-size: 7em;
+    text-align: right;
+}
+
+.companypara {
+    font-size: 3em;
+    text-align: right;
+}
+
+.companypara span {
+    color: #F03A47;
+}
+
+.logoside {
+    background-color: #33658A;
+    width: 50vw;
+    height: 100vh;
+}
+
+.backgroundforlogo {
+    margin-top: 10%;
+    width: 100%;
+    height: 70%;
+    background-color: #64b5f6;
+    margin-left: -7vw;
+    text-align: center;
+}
+
+.laptopsvg {
+    margin-top: 10vh;
+    text-align: center;
+    height: 50vh;
+    transition: .3s;
+}
+
+.laptopsvg:hover {
+    opacity: .5;
+    transform: scale(.75);
+}
+
+
+@media screen and (max-width) {
+
+}
