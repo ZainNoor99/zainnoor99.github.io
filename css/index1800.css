@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     font-size: 10px;
     color: #303030;
 }
