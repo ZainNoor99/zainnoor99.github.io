@@ -1,0 +1,463 @@
+body {
+    background: #F6F4F3;
+    padding: 0;
+    margin: 0;
+    font-family: "Robot", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.wrapper {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 5vh;
+    max-width: 100vw;
+    flex-basis: 100vw;
+}
+
+ul {
+    margin-top: 2vh;
+    list-style-type: none;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+
+nav a {
+    color: #303030;
+    font-size: 1.5vw;
+    transition: .4s;
+}
+
+nav a:hover {
+    color: #64b5f6;
+}
+
+.intro {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+svg {
+    margin-top: 5vh;
+    max-height: 70vh;
+    max-width: 30vw;
+    stroke-width: .2vw;
+    
+    flex-basis: 100vw;
+}
+
+.svglogo {
+    text-align: center;
+    
+    flex-basis: 100vw;
+}
+
+.animatedtext {
+    text-align: center;
+}
+
+.animatedtext h1 {
+    font-size: 3vw;
+}
+
+.coloredtext {
+    color: #F03A47;
+}
+
+.myname h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.aboutmesection {
+    max-width: 100vw;
+    max-height: 100vh;
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #33658A 50vw, #F6F4F3 50vw);
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* .aboutmesection .info {
+    outline: 2px solid green;
+    max-width: 85vw;
+    max-height: 100vh;
+    height: 100vh;
+    width: 50vw;
+    padding: 0;
+    text-align: center;
+    padding: 25%;
+} */
+
+.picside {
+    max-width: 50vw;
+    width: 50vw;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+div.shadow {
+    position:absolute;
+    max-width:35%;
+    max-height:35%;
+    top:50%;
+    left:50%;
+    overflow:visible;
+    outline: 50px;
+}
+img.logo {
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left: -90%;
+}
+
+.aboutmesection .infopara {
+    max-width:150%;
+    width: 110%;
+    max-height:100%;
+    margin-top: -100%;
+    margin-left: 15%;
+}
+
+.infopara .typed {
+    font-size: 3vw;
+}
+
+.typed-cursor {
+    font-size: 2.5vw;
+    font-weight: 100;
+}
+
+.infopara p {
+    font-size: 1.25vw;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a{
+    font-size: 5vw;
+    color: #F03A47;
+    transition: .4s;
+}
+
+.icons a:hover {
+    color: #64b5f6;
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+/* SVG Logo animation stuff */
+#Head {
+    stroke: #33658A;
+    fill-opacity: 1;
+    stroke-dasharray: 2418.322998046875;
+    stroke-dashoffset: 2418.322998046875;
+    animation: dashHead 6s linear;
+}
+
+@keyframes dashHead {
+    from {
+        stroke: #33658A;
+        stroke-dashoffset: 2418.322998046875;
+        stroke-dashoffset: -2418.322998046875;
+        fill-opacity: 0;
+    }
+    to {
+        stroke-dashoffset: 2418.322998046875;
+        stroke: #F03A47;
+        fill-opacity: 1;
+    }
+}
+
+#Nose {
+    stroke: #33658A;
+    stroke-dasharray: 392.4127197265625;
+    stroke-dashoffset: 392.4127197265625;
+    fill-opacity: 1;
+    animation: dashNose 6s linear;
+}
+
+@keyframes dashNose {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 392.4127197265625;
+        stroke-dashoffset: -392.4127197265625;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 392.4127197265625;
+        stroke: #F03A47;
+    }
+}
+
+#Chin_Beard {
+    stroke: #33658A;
+    stroke-dasharray: 356.55267333984375;
+    stroke-dashoffset: 356.55267333984375;
+    fill-opacity: 1;
+    animation: dashChin_Beard 6s linear;
+}
+
+@keyframes dashChin_Beard {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 356.55267333984375;
+        stroke-dashoffset: -356.55267333984375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 356.55267333984375;
+        stroke: #F03A47;
+    }
+}
+
+#Top_Hair {
+    stroke: #33658A;
+    stroke-dasharray: 1577.5140380859375;
+    stroke-dashoffset: 1577.5140380859375;
+    fill-opacity: 1;
+    animation: dashTop_Hair 6s linear;
+}
+
+@keyframes dashTop_Hair {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 1577.5140380859375;
+        stroke-dashoffset: -1577.5140380859375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 1577.5140380859375;
+        stroke: #F03A47;
+    }
+}
+
+#Beard_Hair {
+    stroke: #33658A;
+    stroke-dasharray: 2826.13037109375;
+    stroke-dashoffset: 2826.13037109375;
+    fill-opacity: 1;
+    animation: dashBeard_Hair 6s linear;
+}
+
+@keyframes dashBeard_Hair {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 2826.13037109375;
+        stroke-dashoffset: -2826.13037109375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 2826.13037109375;
+        stroke: #F03A47;
+    }
+}
+
+#Eyebrows {
+    stroke: #33658A;
+    stroke-dasharray: 334.45965576171875;
+    stroke-dashoffset: 334.45965576171875;
+    fill-opacity: 1;
+    animation: dashEyebrows 6s linear;
+}
+
+@keyframes dashEyebrows {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 334.45965576171875;
+        stroke-dashoffset: -334.45965576171875;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 334.45965576171875;
+        stroke: #F03A47;
+    }
+}
+
+#Neck {
+    stroke: #33658A;
+    stroke-dasharray: 863.0379638671875;
+    stroke-dashoffset: 863.0379638671875;
+    fill-opacity: 1;
+    animation: dashNeck 6s linear;
+}
+
+@keyframes dashNeck {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 863.0379638671875;
+        stroke-dashoffset: -863.0379638671875;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 863.0379638671875;
+        stroke: #F03A47;
+    }
+}
+
+#Lens {
+    stroke: #33658A;
+    stroke-dasharray: 768.1332397460938;
+    stroke-dashoffset: 768.1332397460938;
+    fill-opacity: 1;
+    animation: dashLens 6s linear;
+}
+
+@keyframes dashLens {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 768.1332397460938;
+        stroke-dashoffset: -768.1332397460938;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 768.1332397460938;
+        stroke: #F03A47;
+    }
+}
+
+#Black_part_1 {
+    stroke: #33658A;
+    stroke-dasharray: 88.43235778808594;
+    stroke-dashoffset: 88.43235778808594;
+    fill-opacity: 1;
+    animation: dashBlack_part_1 6s linear;
+}
+
+@keyframes dashBlack_part_1 {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 88.43235778808594;
+        stroke-dashoffset: -88.43235778808594;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 88.43235778808594;
+        stroke: #F03A47;
+    }
+}
+
+#Black_part_2 {
+    stroke: #33658A;
+    stroke-dasharray: 298.1716003417969;
+    stroke-dashoffset: 298.1716003417969;
+    fill-opacity: 1;
+    animation: dashBlack_part_2 6s linear;
+}
+
+@keyframes dashBlack_part_2 {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 298.1716003417969;
+        stroke-dashoffset: -298.1716003417969;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 298.1716003417969;
+        stroke: #F03A47;
+    }
+}
+
+#White_part {
+    stroke: #33658A;
+    stroke-dasharray: 299.6165466308594;
+    stroke-dashoffset: 299.6165466308594;
+    fill-opacity: 1;
+    animation: dashWhite_part 6s linear;
+}
+
+@keyframes dashWhite_part {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 299.6165466308594;
+        stroke-dashoffset: -299.6165466308594;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 299.6165466308594;
+        stroke: #F03A47;
+    }
+}
+
+#Ear {
+    stroke: #33658A;
+    stroke-dasharray: 492.46600341796875;
+    stroke-dashoffset: 492.46600341796875;
+    fill-opacity: 1;
+    animation: dashEar 6s linear;
+}
+
+@keyframes dashEar {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 492.46600341796875;
+        stroke-dashoffset: -492.46600341796875;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 492.46600341796875;
+        stroke: #F03A47;
+    }
+}
+
+#Shirt {
+    stroke-dasharray: 1424.636474609375;
+    stroke-dashoffset: 1424.636474609375;
+    fill-opacity: 1;
+    animation: dashShirt 6s linear;
+}
+
+@keyframes dashShirt {
+    from {
+        fill-opacity: 0;
+        stroke: #33658A;
+        stroke-dashoffset: 1424.636474609375;
+        stroke-dashoffset: -1424.636474609375;
+    }
+    to {
+        fill-opacity: 1;
+        stroke-dashoffset: 1424.636474609375;
+        stroke: #F03A47;
+    }
+}
