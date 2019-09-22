@@ -1,0 +1,22 @@
+{
+  "name": "zainnoor99.github.io",
+  "version": "1.0.0",
+  "description": "Zain Noor Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZainNoor99/zainnoor99.github.io.git"
+  },
+  "author": "Zain Noor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZainNoor99/zainnoor99.github.io/issues"
+  },
+  "homepage": "https://github.com/ZainNoor99/zainnoor99.github.io#readme",
+  "dependencies": {
+    "jquery.scrollto": "^2.1.2"
+  }
+}

@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #F6F4F3;
     padding: 0;
     margin: 0;
     font-family: "Robot", sans-serif;
     color: #303030;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -315,8 +320,6 @@ img.logo {
 .footer a:hover {
     color: #F03A47
 }
-
-
 
 
 
