@@ -205,14 +205,15 @@ img.logo {
 
 .projectbox .projectname {
     margin-top: 5vh;
-    margin-left: 15vw;
+    margin-left: 10vw;
     font-size: 2vw;
     color: #F03A47;
     margin-bottom: 1vh;
+    font-weight: lighter;
 }
 
 .projectbox .projectdescription {
-    margin-left: 15vw;
+    margin-left: 10vw;
     font-size: 1.5vw;
     color: #303030;
     max-width: 30vw;
