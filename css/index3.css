@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Robot", sans-serif;
+    color: #303030;
 }
 
 a {
@@ -35,7 +36,7 @@ ul li {
 }
 
 nav a {
-    color: #303030;
+    /* color: #303030; */
     font-size: 1.5vw;
     transition: .4s;
 }
@@ -89,7 +90,7 @@ svg {
     height: 100vw;
     display: flex;
     flex-direction: row;
-    background: linear-gradient(90deg, #33658A 50vw, #F6F4F3 50vw);
+    background: linear-gradient(90deg, #33658A 30vw, #F6F4F3 30vw);
     padding: 0;
     margin: 0;
     position: relative;
@@ -167,6 +168,167 @@ img.logo {
     transform: scale(1.5);
 }
 
+.sectionheading {
+    margin-top: 5vh;
+    font-size: 2vw;
+}
+
+.workheading {
+    margin-left: 5vw;
+}
+
+.workexperience {
+    max-width: 100vw;
+    max-height: 100vh;
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.companyside {
+    background:linear-gradient(90deg, #F6F4F3 50%, #33658A 50%);
+    width: 50vw;
+    max-width: 50vw;
+}
+
+.projectsside {
+    width: 50vw;
+    max-width: 50vw;
+    height: 100vh;
+}
+
+.projectbox {
+    max-height: 20%;
+}
+
+.projectbox .projectname {
+    margin-top: 5vh;
+    margin-left: 15vw;
+    font-size: 2vw;
+    color: #F03A47;
+    margin-bottom: 1vh;
+}
+
+.projectbox .projectdescription {
+    margin-left: 15vw;
+    font-size: 1.5vw;
+    color: #303030;
+    max-width: 30vw;
+    margin-top: 0;
+}
+
+.projectdescription a {
+    color: #64b5f6;
+    transition: .3s;
+}
+
+.projectdescription a:hover {
+    color: #33658A;
+}
+
+.jobdiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    max-height: 75%;
+    height: 75%;
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
+    border-left: 1.5vw solid #33658A;
+    /* border-top: 5px solid #64b5f6;
+    border-right: 5px solid #64b5f6;
+    border-bottom: 5px solid #64b5f6; */
+    background: #F6F4F3;
+}
+
+.logodiv {
+    display: flex;
+    text-align: center;
+    max-width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.jobdiv img {
+    max-width: 100%;
+}
+
+.jobdiv a {
+    transition: .3s;
+}
+
+.jobdiv a:hover {
+    opacity: .75;
+    transform: scale(.9);
+}
+
+.companyinfo {
+    max-width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.jobtitlediv {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+}
+
+.companypara {
+    font-size: 1.25vw;
+}
+
+.jobtitle {
+    color: #F03A47;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+.dates {
+    color: #303030;
+    font-size: .9vw;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background: linear-gradient(180deg, #F6F4F3 80%, #33658A 20%);
+    margin-top: 10vh;
+    text-align: center;
+    max-height: 30vh;
+    height: 30vh;
+    font-size: 1.5vw;
+}
+
+.footer a {
+    color: #64b5f6;
+    transition: .3s;
+}
+
+.footer a:hover {
+    color: #F03A47
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -180,20 +342,20 @@ img.logo {
 #Head {
     stroke: #33658A;
     fill-opacity: 1;
-    stroke-dasharray: 2418.322998046875;
-    stroke-dashoffset: 2418.322998046875;
+    stroke-dasharray: 2417.6455078125;
+    stroke-dashoffset: 2417.6455078125;
     animation: dashHead 6s linear;
 }
 
 @keyframes dashHead {
     from {
         stroke: #33658A;
-        stroke-dashoffset: 2418.322998046875;
-        stroke-dashoffset: -2418.322998046875;
+        stroke-dashoffset: 2417.6455078125;
+        stroke-dashoffset: -2417.6455078125;
         fill-opacity: 0;
     }
     to {
-        stroke-dashoffset: 2418.322998046875;
+        stroke-dashoffset: 2417.6455078125;
         stroke: #F03A47;
         fill-opacity: 1;
     }
@@ -267,8 +429,8 @@ img.logo {
 
 #Beard_Hair {
     stroke: #33658A;
-    stroke-dasharray: 2826.13037109375;
-    stroke-dashoffset: 2826.13037109375;
+    stroke-dasharray: 2825.279052734375;
+    stroke-dashoffset: 2825.279052734375;
     fill-opacity: 1;
     animation: dashBeard_Hair 6s linear;
 }
@@ -277,12 +439,12 @@ img.logo {
     from {
         fill-opacity: 0;
         stroke: #33658A;
-        stroke-dashoffset: 2826.13037109375;
-        stroke-dashoffset: -2826.13037109375;
+        stroke-dashoffset: 2825.279052734375;
+        stroke-dashoffset: -2825.279052734375;
     }
     to {
         fill-opacity: 1;
-        stroke-dashoffset: 2826.13037109375;
+        stroke-dashoffset: 2825.279052734375;
         stroke: #F03A47;
     }
 }
