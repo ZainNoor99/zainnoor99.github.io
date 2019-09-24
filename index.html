@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" media="screen and (min-width: 767px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="/imgs/titleiconbig.png" />
+    <link rel="icon" href="imgs/titleiconbig.png" type="image/icon type">
 
     <title>Zain Noor</title>
 </head>
@@ -64,26 +64,60 @@
             </div>
 
             <div class="myname">
-                <h1>I am <span class="coloredtext">Zain Noor</span></h1>
+                <h1>I am <br id="mobile"> <span class="coloredtext">Zain Noor</span></h1>
                 
             </div>
         </div>
 
         <div class="aboutmesection" id="aboutmesection">
-            <div class="picside">
+            <div class="mobileaboutme" id="mobile">
+                <div class="imgdiv">
+                    <img src="imgs/linkedin2000x2000.jpg" alt="">
+                </div>
+
+                <div class="infoparamobile">
+                        <h1 class="myname"><span class="typed"></span></h1>
+                        <script>
+                            var typed3 = new Typed('.typed', {
+                                strings: ['An aspiring <span class="coloredtext">Innovator</span>', 'An aspiring <span class="coloredtext">Entrepreneur</span>',
+                                    'An aspiring <span class="coloredtext">Management Engineer</span>'],
+                                typeSpeed: 45,
+                                backSpeed: 90,
+                                smartBackspace: true,
+                                loop: true,
+                                backDelay: 2500,
+                            });
+                        </script>
+                        <p>at the University of Waterloo currently looking for a Winter 2020 internship, interested in Software 
+                            Dev and PM and am eager to expand my knowledge in Machine Learning, AI, and Computer Vision.</p>
+                        <p>When I'm not in class or studying you can catch me playing video games, cooking, or just chilling with friends. I'm also passionate about photography, so when 
+                            I have some extra free time I love to go out for some shoots!</p>
+                        <p>Feel free to contact me whether you are an employer, have an idea, or just want to talk!</p>
+                        <div class="icons">
+                            <a class="btn linkedin" href="https://www.linkedin.com/in/zainnoor99/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn github" href="https://github.com/ZainNoor99" target="_blank"><i class="fa fa-github-square"></i></a>
+                            <a class="btn mail" href="mailto:zain.noor@uwaterloo.ca" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+
+                </div>
+                
+            </div>
+            
+            <div class="picside" id="desktop">
                 <div class="shadow">
                     <img class="logo" src="imgs/linkedin2000x2000.jpg" alt="">
 
                     <div class="infopara">
-                            <h1 class="myname"><span class="typed"></span></h1>
+                            <h1 class="myname"><span class="typed1"></span></h1>
                             <script>
-                                var typed3 = new Typed('.typed', {
+                                var typed3 = new Typed('.typed1', {
                                     strings: ['An aspiring <span class="coloredtext">Innovator</span>', 'An aspiring <span class="coloredtext">Entrepreneur</span>',
                                         'An aspiring <span class="coloredtext">Management Engineer</span>'],
                                     typeSpeed: 45,
                                     backSpeed: 90,
                                     smartBackspace: true,
-                                    loop: false,
+                                    loop: true,
+                                    backDelay: 2500,
                                 });
                             </script>
                             <p>at the University of Waterloo currently looking for a Winter 2020 internship. I'm interested in Software 
@@ -104,7 +138,7 @@
 
         <h1 class="sectionheading workheading">Curious about my experience?</h1>
 
-        <div class="workexperience" id="workexperience">
+        <div class="workexperience" id="desktop">
             <div class="projectsside">
                 <div class="projectbox">
                     <h1 class="projectname">Writeup</h1>
@@ -157,6 +191,57 @@
                 </div>
             </div>
         </div>
+
+        <div class="workexperiencemobile" id="mobile">
+                <div class="companyside">
+                    <div class="jobdiv">
+                        <div class="jobtitlediv">
+                            <h1 class="jobtitle">Software Engineer</h1>
+                            <h3 class="dates">May 2019 - August 2019</h3>
+                        
+                        </div>
+    
+                        <div class="logodiv">
+                            <a href="https://www.elastic.io/" target="_blank"><img class="laptopsvg" src="/imgs/eiosvg.svg" alt="eio svg"></a>
+                        </div>
+    
+                        <div class="companyinfo">
+                            <p class="companypara">Backend Software Engineering Intern at Elastic.io based in Bonn, Germany.
+                            </p>
+                        </div>
+    
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="projectssidemobile" id="mobile">
+                    <div class="projectbox">
+                        <h1 class="projectname">Writeup</h1>
+                        <p class="projectdescription">A webapp that allows users to create, order/filter, and delete notes. It was made in <span>JavaScript</span>. You 
+                            can view the source code on <a target="_blank" href="https://github.com/ZainNoor99/Write-Up/tree/master/notes-app">Github</a> or <a target="_blank" href="https://write-up.netlify.com/">try</a> it for yourself!
+                        </p>
+                    </div>
+    
+                    <div class="projectbox">
+                        <h1 class="projectname">Second Guesser</h1>
+                        <p class="projectdescription">A hangman style web game bulit in <span>JavaScript</span>. You 
+                            can view the source code on <a target="_blank" href="https://github.com/ZainNoor99/Second-Guesser/tree/master/hangman">Github</a> or <a target="_blank" href="https://second-guesser.netlify.com/">play</a> yourself!</p>
+                    </div>
+    
+                    <div class="projectbox">
+                        <h1 class="projectname">Checkboxer</h1> 
+                        <p class="projectdescription">A JavaScript webapp that enables users to keep a to-do list. You 
+                            can view the source code on <a target="_blank" href="https://github.com/ZainNoor99/Checkboxer">Github</a> or <a target="_blank" href="https://github.com/ZainNoor99/Checkboxer">try</a> it for yourself!</p>
+                    </div>
+    
+                    <div class="projectbox">
+                        <h1 class="projectname">Meme Survival</h1>
+                        <p class="projectdescription">A birds-eye view arcade shooter style game made using Java and the libGDX library. You can view the source code on <a target="_blank" href="https://github.com/ZainNoor99/Meme-Survival/tree/master/Final%20Project%20Zain%20Noor">Github!</a></p>
+                    </div>
+                </div>
 
         <div class="footer" id="footer">
             <h1>Want more details? <br>Checkout my <a href="/imgs/2ABaseResumeSept2019.pdf" download="ZainNoorResume">resume</a></h1>
