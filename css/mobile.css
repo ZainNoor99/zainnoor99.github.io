@@ -33,6 +33,10 @@ ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
+    /* white-space: nowrap; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 ul li {
@@ -63,7 +67,7 @@ svg {
     margin-top: 5vh;
     max-height: 100%;
     max-width: 70%;
-    stroke-width: .2vw;
+    stroke-width: 1vw;
     flex-basis: 0vw;
 }
 
@@ -173,7 +177,8 @@ svg {
 }
 
 .sectionheading {
-    margin-top: 6vh;
+    margin-top: 10vh;
+    margin-top: 10vh;
     font-size: 6vw;
 }
 
@@ -216,7 +221,7 @@ svg {
 
 .projectssidemobile .projectbox .projectname {
     margin-top: 5vh;
-    margin-left: 5vw;
+    margin-left: 1vw;
     font-size: 6vw;
     color: #F03A47;
     margin-bottom: 1vh;
@@ -224,10 +229,10 @@ svg {
 }
 
 .projectssidemobile .projectbox .projectdescription {
-    margin-left: 5vw;
+    margin-left: 1vw;
     font-size: 4vw;
     color: #303030;
-    max-width: 100vw;
+    max-width: 90vw;
     margin-top: 0;
 }
 
