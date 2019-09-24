@@ -217,7 +217,7 @@ svg {
 
 .projectssidemobile .projectbox {
     min-width: 90vw;
-    width: 90vw;
+    width: 100vw;
     height: 25%;
     text-align: center;
 }
@@ -234,7 +234,6 @@ svg {
     margin-left: 3vw;
     font-size: 4vw;
     color: #303030;
-    max-width: 80%;
     margin-top: 0;
 }
 
