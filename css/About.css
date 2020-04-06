@@ -1,9 +1,24 @@
 html {
+    max-height: 100vh;
     color: black;
     background-color: white;
     font-size: 1vw;
     overflow: hidden;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: fadein 1.25s forwards;
+}
+
+@keyframes fadein {
+    from {
+        background-color: black;
+        opacity:0;
+        transform: scale(.9);
+    }
+    to {
+        background-color: white;
+        opacity:1;
+        transform: scale(1, 1);
+    }
 }
 
 body {
@@ -39,47 +54,88 @@ ul {
     margin: 0;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 ul li {
     list-style-type: none;
+    display: flex;
 }
 
 li a#nav {
     text-decoration: none;
-    font-size: 3rem;
-    font-weight: 100;
+    font-size: 2.5rem;
+    font-weight: 300;
     transition: .2s;
     color: black;
 }
 
 li a#nav:hover {
     color: #7644C3;
-    font-size: 4rem;
+}
+
+.paragraph {
+    width: 70%;
+    border: .25rem solid #7644C3;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    border-radius: 3%;
+    font-size: 1.5rem;
+    /* border-radius: 100% 53% 100% 55% / 51% 0% 42% 7%; */
+}
+
+.innerParagraph {
+    animation: fadeinParagraph 1s 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeinParagraph {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+h1 {
+    font-size: 2.75rem;
 }
 
 .coloredText {
     color: #7644C3;
 }
 
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a{
+    font-size: 4rem;
+    color: #7644C3;
+    transition: .4s;
+}
+
+.icons a:hover {
+    color: black;
+    transform: scale(1.25);
 }
 
 .navBar {
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    width: 100vw;
 }
 
 .SVG {
     width: 40vw;
-    height: 70vh;
+    height: 75vh;
     display: flex;
 }
 
@@ -112,10 +168,10 @@ li a#nav:hover {
 /* SVG Logo animation stuff */
 #Head {
     stroke-width: 2;
-    fill-opacity: 1;
+    fill-opacity: 0;
     stroke-dasharray: 2417.6455078125;
     stroke-dashoffset: 2417.6455078125;
-    animation: dashHead 4s linear;
+    animation: dashHead 5s 0.25s forwards;
 }
 
 @keyframes dashHead {
@@ -123,7 +179,6 @@ li a#nav:hover {
         stroke: #7644C3;
         stroke-dashoffset: 2417.6455078125;
         stroke-dashoffset: -2417.6455078125;
-        fill-opacity: 0;
     }
     to {
         stroke-dashoffset: 2417.6455078125;
@@ -134,15 +189,14 @@ li a#nav:hover {
 
 #Nose {
     stroke-width: 2;
+    fill-opacity: 0;
     stroke-dasharray: 392.4127197265625;
     stroke-dashoffset: 392.4127197265625;
-    fill-opacity: 1;
-    animation: dashNose 4s linear;
+    animation: dashNose 5s 0.25s forwards;
 }
 
 @keyframes dashNose {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 392.4127197265625;
         stroke-dashoffset: -392.4127197265625;
@@ -158,13 +212,12 @@ li a#nav:hover {
     stroke-width: 2;
     stroke-dasharray: 356.55267333984375;
     stroke-dashoffset: 356.55267333984375;
-    fill-opacity: 1;
-    animation: dashChin_Beard 4s linear;
+    fill-opacity: 0;
+    animation: dashChin_Beard 5s 0.25s forwards;
 }
 
 @keyframes dashChin_Beard {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 356.55267333984375;
         stroke-dashoffset: -356.55267333984375;
@@ -178,15 +231,14 @@ li a#nav:hover {
 
 #Top_Hair {
     stroke-width: 2;
+    fill-opacity: 0;
     stroke-dasharray: 1577.5140380859375;
     stroke-dashoffset: 1577.5140380859375;
-    fill-opacity: 1;
-    animation: dashTop_Hair 4s linear;
+    animation: dashTop_Hair 5s 0.25s forwards;
 }
 
 @keyframes dashTop_Hair {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 1577.5140380859375;
         stroke-dashoffset: -1577.5140380859375;
@@ -200,15 +252,14 @@ li a#nav:hover {
 
 #Beard_Hair {
     stroke-width: 2;
+    fill-opacity: 0;
     stroke-dasharray: 2825.279052734375;
     stroke-dashoffset: 2825.279052734375;
-    fill-opacity: 1;
-    animation: dashBeard_Hair 4s linear;
+    animation: dashBeard_Hair 5s 0.25s forwards;
 }
 
 @keyframes dashBeard_Hair {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 2825.279052734375;
         stroke-dashoffset: -2825.279052734375;
@@ -222,15 +273,14 @@ li a#nav:hover {
 
 #Eyebrows {
     stroke-width: 2;
+    fill-opacity: 0;
     stroke-dasharray: 334.45965576171875;
     stroke-dashoffset: 334.45965576171875;
-    fill-opacity: 1;
-    animation: dashEyebrows 4s linear;
+    animation: dashEyebrows 5s 0.25s forwards;
 }
 
 @keyframes dashEyebrows {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 334.45965576171875;
         stroke-dashoffset: -334.45965576171875;
@@ -244,15 +294,14 @@ li a#nav:hover {
 
 #Neck {
     stroke-width: 2;
+    fill-opacity: 0;
     stroke-dasharray: 863.0379638671875;
     stroke-dashoffset: 863.0379638671875;
-    fill-opacity: 1;
-    animation: dashNeck 4s linear;
+    animation: dashNeck 5s 0.25s forwards;
 }
 
 @keyframes dashNeck {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 863.0379638671875;
         stroke-dashoffset: -863.0379638671875;
@@ -268,13 +317,12 @@ li a#nav:hover {
     stroke-width: 2;
     stroke-dasharray: 768.1332397460938;
     stroke-dashoffset: 768.1332397460938;
-    fill-opacity: 1;
-    animation: dashLens 4s linear;
+    fill-opacity: 0;
+    animation: dashLens 5s 0.25s forwards;
 }
 
 @keyframes dashLens {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 768.1332397460938;
         stroke-dashoffset: -768.1332397460938;
@@ -283,6 +331,7 @@ li a#nav:hover {
         fill-opacity: 1;
         stroke-dashoffset: 768.1332397460938;
         stroke: black;
+        fill-opacity: 1;
     }
 }
 
@@ -290,13 +339,12 @@ li a#nav:hover {
     stroke-width: 2;
     stroke-dasharray: 88.43235778808594;
     stroke-dashoffset: 88.43235778808594;
-    fill-opacity: 1;
-    animation: dashBlack_part_1 4s linear;
+    fill-opacity: 0;
+    animation: dashBlack_part_1 5s 0.25s forwards;
 }
 
 @keyframes dashBlack_part_1 {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 88.43235778808594;
         stroke-dashoffset: -88.43235778808594;
@@ -312,13 +360,12 @@ li a#nav:hover {
     stroke-width: 2;
     stroke-dasharray: 298.1716003417969;
     stroke-dashoffset: 298.1716003417969;
-    fill-opacity: 1;
-    animation: dashBlack_part_2 4s linear;
+    fill-opacity: 0;
+    animation: dashBlack_part_2 5s 0.25s forwards;
 }
 
 @keyframes dashBlack_part_2 {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 298.1716003417969;
         stroke-dashoffset: -298.1716003417969;
@@ -334,13 +381,12 @@ li a#nav:hover {
     stroke-width: 2;
     stroke-dasharray: 299.6165466308594;
     stroke-dashoffset: 299.6165466308594;
-    fill-opacity: 1;
-    animation: dashWhite_part 4s linear;
+    fill-opacity: 0;
+    animation: dashWhite_part 5s 0.25s forwards;
 }
 
 @keyframes dashWhite_part {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 299.6165466308594;
         stroke-dashoffset: -299.6165466308594;
@@ -356,13 +402,12 @@ li a#nav:hover {
     stroke-dasharray: 492.46600341796875;
     stroke-dashoffset: 492.46600341796875;
     stroke-width: 2;
-    fill-opacity: 1;
-    animation: dashEar 4s linear;
+    fill-opacity: 0;
+    animation: dashEar 5s 0.25s forwards;
 }
 
 @keyframes dashEar {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 492.46600341796875;
         stroke-dashoffset: -492.46600341796875;
@@ -378,13 +423,12 @@ li a#nav:hover {
     stroke-dasharray: 1424.636474609375;
     stroke-dashoffset: 1424.636474609375;
     stroke-width: 2;
-    fill-opacity: 1;
-    animation: dashShirt 4s linear;
+    fill-opacity: 0;
+    animation: dashShirt 5s 0.25s forwards;
 }
 
 @keyframes dashShirt {
     from {
-        fill-opacity: 0;
         stroke: #7644C3;
         stroke-dashoffset: 1424.636474609375;
         stroke-dashoffset: -1424.636474609375;
