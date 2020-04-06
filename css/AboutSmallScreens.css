@@ -54,7 +54,7 @@ body {
 
 ul {
     width: 89.9%;
-    height: 90%;
+    height: 70%;
     background-color: #7644C3;
     border-radius: 500px;
     padding: 0;
@@ -72,7 +72,7 @@ ul li {
 
 li a#nav {
     text-decoration: none;
-    font-size: 3.5rem;
+    font-size: 5vw;
     font-weight: 300;
     transition: .2s;
     color: black;
@@ -87,6 +87,7 @@ li a#nav:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 100vw;
     position: fixed;
     bottom: 1vh;
