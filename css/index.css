@@ -39,24 +39,23 @@ body {
 
 ul li {
     list-style-type: none;
+    display: flex;
     margin-top: 3vh;
 }
 
 li a#nav {
-    list-style-type: none;
     text-decoration: none;
     font-size: 5rem;
-    text-align: left;
     font-weight: 100;
-    animation: fadein 2s 3s forwards;
-    opacity: 0;
     transition: .2s;
     color: white;
+    opacity: 0;
+    animation: fadein 2s 3s forwards;
 }
 
 li a#nav:hover {
     color: #7644C3;
-    font-size: 6rem;
+    transform: scale(1.1);
 }
 
 @keyframes fadein {

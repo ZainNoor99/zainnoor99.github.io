@@ -5,14 +5,14 @@ html {
     font-size: 1vw;
     overflow: hidden;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    animation: fadein 0.5s linear forwards;
+    animation: pageTransition 0.5s linear forwards;
 }
 
-@keyframes fadein {
+@keyframes pageTransition {
     from {
         /* background-color: black; */
         opacity:0;
-        transform: scale(.7);
+        transform: scale(.9);
     }
     to {
         /* background-color: white; */
@@ -66,44 +66,35 @@ li a#nav {
     text-decoration: none;
     font-size: 2.5rem;
     font-weight: 300;
-    transition: .2s;
+    transition: .15s;
     color: black;
 }
 
 li a#nav:hover {
     color: #7644C3;
+    transform: scale(1.2);
+}
+
+.navBar {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
 }
 
 .paragraph {
     width: 70%;
-    border: .25rem solid #7644C3;
+    border: .15rem solid #7644C3;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1rem;
     border-radius: 3%;
     font-size: 1.5rem;
-    /* border-radius: 100% 53% 100% 55% / 51% 0% 42% 7%; */
-}
-
-/* Don't know if I wanna do this or not */
-.innerParagraph {
-    /* animation: fadeinParagraph .4s linear 0.5s forwards; */
-    /* opacity: 0; */
-}
-
-@keyframes fadeinParagraph {
-    from {
-        opacity: 0;
-        transform: scale(0.7);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
 }
 
 h1 {
-    font-size: 2.75rem;
+    font-size: 2rem;
 }
 
 .coloredText {
@@ -115,23 +106,14 @@ h1 {
     justify-content: space-between;
 }
 
-.icons a{
+.icons a {
     font-size: 4rem;
     color: #7644C3;
-    transition: .4s;
-}
+    transition: .2s;.}
 
 .icons a:hover {
     color: black;
     transform: scale(1.25);
-}
-
-.navBar {
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100vw;
 }
 
 .SVG {
@@ -173,7 +155,7 @@ h1 {
     fill-opacity: 0;
     stroke-dasharray: 2417.6455078125;
     stroke-dashoffset: 2417.6455078125;
-    animation: dashHead 3s 0.3s forwards;
+    animation: dashHead 5s 0.4s forwards;
 }
 
 @keyframes dashHead {
@@ -194,7 +176,7 @@ h1 {
     fill-opacity: 0;
     stroke-dasharray: 392.4127197265625;
     stroke-dashoffset: 392.4127197265625;
-    animation: dashNose 3s 0.3s forwards;
+    animation: dashNose 5s 0.4s forwards;
 }
 
 @keyframes dashNose {
@@ -215,7 +197,7 @@ h1 {
     stroke-dasharray: 356.55267333984375;
     stroke-dashoffset: 356.55267333984375;
     fill-opacity: 0;
-    animation: dashChin_Beard 3s 0.3s forwards;
+    animation: dashChin_Beard 5s 0.4s forwards;
 }
 
 @keyframes dashChin_Beard {
@@ -236,7 +218,7 @@ h1 {
     fill-opacity: 0;
     stroke-dasharray: 1577.5140380859375;
     stroke-dashoffset: 1577.5140380859375;
-    animation: dashTop_Hair 3s 0.3s forwards;
+    animation: dashTop_Hair 5s 0.4s forwards;
 }
 
 @keyframes dashTop_Hair {
@@ -257,7 +239,7 @@ h1 {
     fill-opacity: 0;
     stroke-dasharray: 2825.279052734375;
     stroke-dashoffset: 2825.279052734375;
-    animation: dashBeard_Hair 3s 0.3s forwards;
+    animation: dashBeard_Hair 5s 0.4s forwards;
 }
 
 @keyframes dashBeard_Hair {
@@ -278,7 +260,7 @@ h1 {
     fill-opacity: 0;
     stroke-dasharray: 334.45965576171875;
     stroke-dashoffset: 334.45965576171875;
-    animation: dashEyebrows 3s 0.3s forwards;
+    animation: dashEyebrows 5s 0.4s forwards;
 }
 
 @keyframes dashEyebrows {
@@ -299,7 +281,7 @@ h1 {
     fill-opacity: 0;
     stroke-dasharray: 863.0379638671875;
     stroke-dashoffset: 863.0379638671875;
-    animation: dashNeck 3s 0.3s forwards;
+    animation: dashNeck 5s 0.4s forwards;
 }
 
 @keyframes dashNeck {
@@ -320,7 +302,7 @@ h1 {
     stroke-dasharray: 768.1332397460938;
     stroke-dashoffset: 768.1332397460938;
     fill-opacity: 0;
-    animation: dashLens 3s 0.3s forwards;
+    animation: dashLens 5s 0.4s forwards;
 }
 
 @keyframes dashLens {
@@ -342,7 +324,7 @@ h1 {
     stroke-dasharray: 88.43235778808594;
     stroke-dashoffset: 88.43235778808594;
     fill-opacity: 0;
-    animation: dashBlack_part_1 3s 0.3s forwards;
+    animation: dashBlack_part_1 5s 0.4s forwards;
 }
 
 @keyframes dashBlack_part_1 {
@@ -363,7 +345,7 @@ h1 {
     stroke-dasharray: 298.1716003417969;
     stroke-dashoffset: 298.1716003417969;
     fill-opacity: 0;
-    animation: dashBlack_part_2 3s 0.3s forwards;
+    animation: dashBlack_part_2 5s 0.4s forwards;
 }
 
 @keyframes dashBlack_part_2 {
@@ -384,7 +366,7 @@ h1 {
     stroke-dasharray: 299.6165466308594;
     stroke-dashoffset: 299.6165466308594;
     fill-opacity: 0;
-    animation: dashWhite_part 3s 0.3s forwards;
+    animation: dashWhite_part 5s 0.4s forwards;
 }
 
 @keyframes dashWhite_part {
@@ -405,7 +387,7 @@ h1 {
     stroke-dashoffset: 492.46600341796875;
     stroke-width: .15rem;
     fill-opacity: 0;
-    animation: dashEar 3s 0.3s forwards;
+    animation: dashEar 5s 0.4s forwards;
 }
 
 @keyframes dashEar {
@@ -426,7 +408,7 @@ h1 {
     stroke-dashoffset: 1424.636474609375;
     stroke-width: .15rem;
     fill-opacity: 0;
-    animation: dashShirt 3s 0.3s forwards;
+    animation: dashShirt 5s 0.4s forwards;
 }
 
 @keyframes dashShirt {
