@@ -1,0 +1,141 @@
+html {
+    color: white;
+    background-color: black;
+    font-size: 1vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: pageTransition 0.5s linear forwards;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    width: 85%;
+    height: 60%;
+    background-color: #7644C3;
+    border-radius: 500px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+}
+
+li a#nav {
+    text-decoration: none;
+    font-size: 5vw;
+    font-weight: 300;
+    transition: .2s;
+    color: black;
+}
+
+li a#nav:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.navBar {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    opacity: 0;
+    animation: pageTransition 0.75s 0.5s forwards;
+}
+
+.experience {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    animation: pageTransition 1.5s forwards;
+}
+
+@keyframes pageTransition {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.experienceTile {
+    /* min-height: 10vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experienceLogo {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+}
+
+.experienceLogo a {
+    width: 60%;
+}
+
+img {
+    transition: 0.2s;
+    width: 100%;
+    opacity: 90%;
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 60%;
+}
+
+.experienceInfo {
+    width: 80%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.dates {
+    font-size: 3rem;
+}
+
+h1 {
+    margin-top: 1.5vh;
+    font-size: 7rem;
+}
+
+.innerParagraph {
+    width: 90%;
+}
+
+p {
+    margin-top: 1.5vh;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 4.5rem;
+}
+
+.projects {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.coloredText {
+    color: #7644C3;
+}
