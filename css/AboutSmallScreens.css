@@ -44,9 +44,6 @@ body {
     width: 90%;
     justify-content: center;
     align-items: center;
-    border-right: .25rem solid #7644C3;
-    border-left: .25rem solid #7644C3;
-    border-bottom: .25rem solid #7644C3;
 }
 
 ul {
@@ -99,7 +96,6 @@ li a#nav:hover {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1rem;
-    border-radius: 3%;
     font-size: 2.5rem;
 }
 
@@ -133,9 +129,6 @@ h1 {
     height: 100%;
     display: flex;
     justify-content: center;
-    border-top: .25rem solid #7644C3;
-    border-right: .25rem solid #7644C3;
-    border-left: .25rem solid #7644C3;
 }
 
 .topsvg {

@@ -84,12 +84,10 @@ li a#nav:hover {
 }
 
 .paragraph {
-    width: 70%;
-    border: .15rem solid #7644C3;
+    width: 80%;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1rem;
-    border-radius: 3%;
     font-size: 1.5rem;
 }
 
