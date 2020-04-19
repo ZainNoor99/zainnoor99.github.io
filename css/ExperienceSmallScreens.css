@@ -58,8 +58,6 @@ li a#nav:hover {
     overflow: hidden;
 }
 
-
-
 .experience {
     width: 100vw;
     margin-bottom: 7vh;
@@ -109,7 +107,7 @@ img:hover {
 }
 
 .experienceInfo {
-    width: 80%;
+    width: 95%;
     text-align: left;
     display: flex;
     justify-content: center;
