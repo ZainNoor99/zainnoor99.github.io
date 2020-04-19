@@ -62,7 +62,7 @@ li a#nav:hover {
 
 .experience {
     width: 100vw;
-    margin-bottom: 6vh;
+    margin-bottom: 7vh;
     display: flex;
     flex-direction: column;
     animation: pageTransition 1.5s forwards;
