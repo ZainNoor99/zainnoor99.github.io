@@ -55,7 +55,6 @@ li a#nav:hover {
     bottom: 0;
     opacity: 0;
     animation: pageTransition 0.75s 0.5s forwards;
-    overflow: hidden;
 }
 
 .experience {
