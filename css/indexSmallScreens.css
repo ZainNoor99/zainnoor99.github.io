@@ -47,7 +47,7 @@ p {
     margin: 0;
     max-width: 80%;
     text-align: center;
-    animation: fadein 2s 3s forwards;
+    animation: fadein 2s 3.2s forwards;
 }
 
 ul {
@@ -67,7 +67,7 @@ li a#nav {
     font-size: 6rem;
     text-align: left;
     font-weight: 100;
-    animation: fadein 2s 3s forwards;
+    animation: fadein 2s 3.1s forwards;
     opacity: 0;
     transition: .2s;
     color: white;
