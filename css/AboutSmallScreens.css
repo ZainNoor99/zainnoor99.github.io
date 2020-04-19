@@ -90,7 +90,6 @@ li a#nav:hover {
     bottom: 0;
     opacity: 0;
     animation: pageTransition 0.2s 0.5s linear forwards;
-    overflow: hidden;
 }
 
 .paragraph {
