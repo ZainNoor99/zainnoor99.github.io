@@ -20,6 +20,7 @@ body {
 
 .homeLeft {
     display: inline-flex;
+    flex-direction: column;
     width: 100vw;
     height: 50vh;
     justify-content: center;
@@ -37,6 +38,16 @@ body {
 .typedJS {
     font-size: 11rem;
     font-weight: 200;
+}
+
+p {
+    font-size: 2.25rem;
+    color: #7644C3;
+    opacity: 0;
+    margin: 0;
+    max-width: 80%;
+    text-align: center;
+    animation: fadein 2s 3s forwards;
 }
 
 ul {
