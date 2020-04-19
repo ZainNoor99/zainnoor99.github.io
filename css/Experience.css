@@ -45,6 +45,9 @@ li a#nav:hover {
     justify-content: flex-end;
     width: 100vw;
     opacity: 0;
+    /* margin-top: 10vh; */
+    position: fixed;
+    bottom: 0;
     animation: pageTransition 0.75s 0.5s forwards;
 }
 
