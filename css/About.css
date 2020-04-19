@@ -102,11 +102,7 @@ h1 {
 }
 
 .icons {
-    /* display: flex;
-    justify-content: space-between; */
     display: flex;
-    width: 50vw;
-    margin-left: -5rem;
     justify-content: space-between;
 }
 
@@ -114,8 +110,6 @@ h1 {
     font-size: 4rem;
     color: #7644C3;
     transition: .2s;
-    margin-left: 2vw;
-    margin-right: 2vw;
 }
 
 .icons a:hover {
