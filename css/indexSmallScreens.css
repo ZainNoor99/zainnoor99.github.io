@@ -72,6 +72,11 @@ ul li {
     transform: scale(1.1);
 }
 
+.notVisitedAnimationP {
+    opacity: 0;
+    animation: fadein 2s 3.2s forwards;
+}
+
 .visitedAnimationP {
     opacity: 0;
     animation: fadein 1.9s 0.2s forwards;
