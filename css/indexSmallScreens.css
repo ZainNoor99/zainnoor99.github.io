@@ -11,7 +11,6 @@ body {
 }
 
 .homePage {
-    /* overflow: hidden; */
     max-width: 100vw;
     max-height: 100vh;
     display: flex;
@@ -40,14 +39,12 @@ body {
     font-weight: 200;
 }
 
-p {
+#smallAbout {
     font-size: 2.25rem;
     color: #7644C3;
-    opacity: 0;
     margin: 0;
     max-width: 80%;
     text-align: center;
-    animation: fadein 2s 3.2s forwards;
 }
 
 ul {
@@ -57,32 +54,44 @@ ul {
 
 ul li {
     list-style-type: none;
+    display: flex;
     margin-top: 5vh;
-    text-align: center;
+    justify-content: center;
 }
 
-li a#nav {
-    list-style-type: none;
+#nav1, #nav2, #nav3 {
     text-decoration: none;
     font-size: 6rem;
-    text-align: left;
     font-weight: 100;
-    animation: fadein 2s 3.1s forwards;
-    opacity: 0;
     transition: .2s;
     color: white;
 }
 
-li a#nav:hover {
+#nav1:hover, #nav2:hover, #nav3:hover {
     color: #7644C3;
-    font-size: 8rem;
+    transform: scale(1.1);
+}
+
+.visitedAnimationP {
+    opacity: 0;
+    animation: fadein 1.9s 0.2s forwards;
+}
+
+.visitedAnimation {
+    opacity: 0;
+    animation: fadein 2s 0.3s forwards;
+}
+
+.notVisitedAnimation {
+    opacity: 0;
+    animation: fadein 2s 3.3s forwards;
 }
 
 @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
