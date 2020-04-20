@@ -32,30 +32,47 @@
     <div class="homePage">
         <div class="homeLeft">
             <div class="typedJS">
-                <span class="typed-insertion"></span>
+                <span id="typed-insertion"></span>
             </div>
-            <script>
-                var typed = new Typed('.typed-insertion', {
-                    strings: ['I am', 'Zain Noor'],
-                    typeSpeed: 70,
-                    smartBackspace: true,
-                    backDelay: 1250,
-                    showCursor: false,
-                    startDelay: 500,
-                    fadeOut: true,
-                });
-            </script>
-            <p>An Aspiring Management Engineer</p>
+            <p id="smallAbout" class="notVisitedAnimationP">An Aspiring Management Engineer</p>
         </div>
     
         <div class="homeRight">
             <ul>
-                <li><a id="nav" href="pages/About.html">About</a></li>
-                <li><a id="nav" href="pages/Experience.html">Experience</a></li>
-                <li><a id="nav" href="imgs/ZainNoorResume.pdf" target="_blank">Resume</a></li>
+                <li><a id="nav1" class="notVisitedAnimation" href="pages/About.html">About</a></li>
+                <li><a id="nav2" class="notVisitedAnimation" href="pages/Experience.html">Experience</a></li>
+                <li><a id="nav3" class="notVisitedAnimation" href="imgs/ZainNoorResume.pdf" target="_blank">Resume</a></li>
             </ul>
         </div>
     </div>
+
+    <script>
+        console.log(document.cookie)
+        if (document.cookie.includes("isVisited=yes")) {
+            document.getElementById('typed-insertion').innerHTML = 'Zain Noor'
+
+            document.getElementById('typed-insertion').setAttribute('class','visitedAnimation');
+            document.getElementById('smallAbout').setAttribute('class','visitedAnimationP');
+            document.getElementById('nav1').setAttribute('class','visitedAnimation');
+            document.getElementById('nav2').setAttribute('class','visitedAnimation');
+            document.getElementById('nav3').setAttribute('class','visitedAnimation');
+        } else {
+            const minutes = 60;
+            const date = new Date();
+            date.setTime(date.getTime()+(minutes*60*1000))
+            const expires = "; expires="+date.toUTCString()+';';
+            document.cookie = 'isVisited=yes;' + expires;
+            const typed = new Typed('#typed-insertion', {
+                strings: ['I am', 'Zain Noor'],
+                typeSpeed: 70,
+                smartBackspace: true,
+                backDelay: 1250,
+                showCursor: false,
+                startDelay: 500,
+                fadeOut: true,
+            });
+        }
+    </script>
 </body>
 
 </html>

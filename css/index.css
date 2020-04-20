@@ -38,14 +38,12 @@ body {
     font-weight: 300;
 }
 
-p {
+#smallAbout {
     font-size: 1.7rem;
     color: #7644C3;
-    opacity: 0;
     margin: 0;
     max-width: 80%;
     text-align: center;
-    animation: fadein 2s 3.2s forwards;
 }
 
 ul li {
@@ -54,26 +52,44 @@ ul li {
     margin-top: 3vh;
 }
 
-li a#nav {
+#nav1, #nav2, #nav3 {
     text-decoration: none;
     font-size: 5rem;
     font-weight: 100;
     transition: .2s;
     color: white;
-    opacity: 0;
-    animation: fadein 2s 3.1s forwards;
 }
 
-li a#nav:hover {
+#nav1:hover, #nav2:hover, #nav3:hover {
     color: #7644C3;
     transform: scale(1.1);
 }
 
+.notVisitedAnimationP {
+    opacity: 0;
+    animation: fadein 2s 3.2s forwards;
+}
+
+.visitedAnimationP {
+    opacity: 0;
+    animation: fadein 1.9s 0.2s forwards;
+}
+
+.visitedAnimation {
+    opacity: 0;
+    animation: fadein 2s 0.3s forwards;
+}
+
+.notVisitedAnimation {
+    opacity: 0;
+    animation: fadein 2s 3.3s forwards;
+}
+
 @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
