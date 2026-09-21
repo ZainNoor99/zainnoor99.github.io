@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow, noarchive">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#fbf8f1">
     <title>Find Your Table</title>
+
+    <script>
+        (function () {
+            const hasSeenIntro = /(?:^|;\s*)seatingIntroSeen=1(?:;|$)/.test(document.cookie);
+            document.documentElement.classList.add(hasSeenIntro ? "skip-intro" : "show-intro");
+        })();
+    </script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="intro-splash" class="intro-splash" aria-hidden="true">
+        <object
+            id="intro-art"
+            class="intro-art"
+            data="/animation/kids.svg"
+            type="image/svg+xml"
+            tabindex="-1"
+        ></object>
+    </div>
+
     <main class="page-shell">
         <section class="card" aria-labelledby="page-title">
             <div class="monogram" aria-hidden="true">Zain <span>&amp;</span> Rida</div>
@@ -37,5 +55,52 @@
 
     <script src="guests.js"></script>
     <script src="search.js"></script>
+    <script>
+        (function () {
+            const root = document.documentElement;
+
+            if (!root.classList.contains("show-intro")) {
+                return;
+            }
+
+            const splash = document.getElementById("intro-splash");
+            const art = document.getElementById("intro-art");
+            const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+            let sequenceStarted = false;
+
+            function rememberIntro() {
+                document.cookie = "seatingIntroSeen=1; Max-Age=31536000; Path=/; SameSite=Lax";
+            }
+
+            function finishIntro() {
+                rememberIntro();
+                root.classList.add("intro-revealed");
+                splash.classList.add("fade-out");
+
+                window.setTimeout(() => {
+                    splash.remove();
+                    root.classList.remove("show-intro");
+                    root.classList.add("skip-intro");
+                }, prefersReducedMotion ? 0 : 850);
+            }
+
+            function startSequence() {
+                if (sequenceStarted) return;
+                sequenceStarted = true;
+
+                // The SVG draw/fill animation lasts about 2.6s.
+                // Hold the completed artwork for another second before fading.
+                const animationTime = prefersReducedMotion ? 0 : 2700;
+                const holdTime = prefersReducedMotion ? 250 : 1000;
+
+                window.setTimeout(finishIntro, animationTime + holdTime);
+            }
+
+            art.addEventListener("load", startSequence, { once: true });
+
+            // Safety fallback in case the object load event is blocked or delayed.
+            window.setTimeout(startSequence, 3500);
+        })();
+    </script>
 </body>
 </html>
