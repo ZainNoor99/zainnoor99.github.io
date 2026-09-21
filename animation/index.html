@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="animation-page">
+    <section class="animation-card">
+      <object id="kids-art" class="kids-art" data="kids.svg" type="image/svg+xml" aria-label="Animated vector illustration of the childhood photo"></object>
+      <button id="replay" type="button">Replay animation</button>
+    </section>
+  </main>
+  <script>
+    const art = document.getElementById("kids-art");
+    document.getElementById("replay").addEventListener("click", () => {
+      art.data = "kids.svg?v=" + Date.now();
+    });
+  </script>
+</body>
+</html>
