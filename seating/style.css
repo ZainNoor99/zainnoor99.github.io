@@ -35,6 +35,40 @@ body {
     background: transparent;
 }
 
+html.show-intro,
+html.show-intro body {
+    overflow: hidden;
+}
+
+.intro-splash {
+    display: none;
+}
+
+html.show-intro .intro-splash {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: var(--cream);
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+html.show-intro .intro-splash.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.intro-art {
+    display: block;
+    width: min(76vw, 390px);
+    max-height: 72vh;
+    aspect-ratio: 242 / 286;
+    border: 0;
+}
+
 .page-shell {
     min-height: 100vh;
     display: grid;
@@ -43,6 +77,18 @@ body {
     padding: 32px 16px 48px;
     position: relative;
     overflow-x: hidden;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+html.show-intro .page-shell {
+    opacity: 0;
+    visibility: hidden;
+}
+
+html.show-intro.intro-revealed .page-shell {
+    opacity: 1;
+    visibility: visible;
 }
 
 .card {
@@ -231,6 +277,11 @@ h1 {
             #fbfaf6;
     }
 
+    .intro-art {
+        width: min(82vw, 340px);
+        max-height: 68vh;
+    }
+
     .page-shell {
         display: block;
         padding: 0;
@@ -274,5 +325,12 @@ h1 {
 
     .table-number {
         min-width: 86px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .intro-splash,
+    .page-shell {
+        transition: none;
     }
 }
