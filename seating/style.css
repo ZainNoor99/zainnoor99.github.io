@@ -27,7 +27,8 @@ body {
 .page-shell {
     min-height: 100vh;
     display: grid;
-    place-items: center;
+    justify-items: center;
+    align-items: start;
     padding: 24px 16px;
 }
 
@@ -44,7 +45,7 @@ body {
     text-align: center;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.1rem;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.16em;
     color: var(--accent);
     margin-bottom: 28px;
 }
