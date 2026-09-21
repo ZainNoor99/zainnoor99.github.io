@@ -64,9 +64,7 @@
             }
 
             const splash = document.getElementById("intro-splash");
-            const art = document.getElementById("intro-art");
             const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-            let sequenceStarted = false;
 
             function rememberIntro() {
                 document.cookie = "seatingIntroSeen=1; Max-Age=31536000; Path=/; SameSite=Lax";
@@ -81,25 +79,12 @@
                     splash.remove();
                     root.classList.remove("show-intro");
                     root.classList.add("skip-intro");
-                }, prefersReducedMotion ? 0 : 850);
+                }, prefersReducedMotion ? 0 : 800);
             }
 
-            function startSequence() {
-                if (sequenceStarted) return;
-                sequenceStarted = true;
-
-                // The SVG draw/fill animation lasts about 2.6s.
-                // Hold the completed artwork for another second before fading.
-                const animationTime = prefersReducedMotion ? 0 : 2700;
-                const holdTime = prefersReducedMotion ? 250 : 1000;
-
-                window.setTimeout(finishIntro, animationTime + holdTime);
-            }
-
-            art.addEventListener("load", startSequence, { once: true });
-
-            // Safety fallback in case the object load event is blocked or delayed.
-            window.setTimeout(startSequence, 3500);
+            // Fixed timer from page render: SVG loading time is not added on top.
+            // The art finishes around 2.6s, then stays visible for about 1 second.
+            window.setTimeout(finishIntro, prefersReducedMotion ? 250 : 3600);
         })();
     </script>
 </body>
