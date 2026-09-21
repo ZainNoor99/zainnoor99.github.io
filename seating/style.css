@@ -45,45 +45,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Soft botanical corner accents */
-.page-shell::before,
-.page-shell::after {
-    content: "";
-    position: fixed;
-    z-index: 0;
-    pointer-events: none;
-    width: 260px;
-    height: 260px;
-    opacity: 0.72;
-    filter: saturate(0.88);
-}
-
-.page-shell::before {
-    top: -54px;
-    left: -42px;
-    background:
-        radial-gradient(ellipse at 27% 30%, rgba(233,184,194,.96) 0 12%, transparent 12.7%),
-        radial-gradient(ellipse at 44% 22%, rgba(255,248,230,.98) 0 10%, transparent 10.7%),
-        radial-gradient(ellipse at 38% 43%, rgba(233,184,194,.74) 0 8%, transparent 8.7%),
-        radial-gradient(ellipse at 61% 31%, rgba(127,143,119,.80) 0 7%, transparent 7.7%),
-        radial-gradient(ellipse at 67% 45%, rgba(127,143,119,.58) 0 9%, transparent 9.7%),
-        radial-gradient(ellipse at 49% 59%, rgba(127,143,119,.55) 0 8%, transparent 8.7%);
-    transform: rotate(-8deg);
-}
-
-.page-shell::after {
-    right: -48px;
-    bottom: -54px;
-    background:
-        radial-gradient(ellipse at 69% 69%, rgba(233,184,194,.96) 0 12%, transparent 12.7%),
-        radial-gradient(ellipse at 52% 77%, rgba(255,248,230,.98) 0 10%, transparent 10.7%),
-        radial-gradient(ellipse at 61% 49%, rgba(233,184,194,.74) 0 8%, transparent 8.7%),
-        radial-gradient(ellipse at 38% 65%, rgba(127,143,119,.80) 0 7%, transparent 7.7%),
-        radial-gradient(ellipse at 31% 50%, rgba(127,143,119,.58) 0 9%, transparent 9.7%),
-        radial-gradient(ellipse at 48% 39%, rgba(127,143,119,.55) 0 8%, transparent 8.7%);
-    transform: rotate(8deg);
-}
-
 .card {
     position: relative;
     z-index: 1;
@@ -99,7 +60,7 @@ body {
 .monogram {
     text-align: center;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     letter-spacing: 0.11em;
     color: var(--gold);
     margin-bottom: 24px;
@@ -276,13 +237,6 @@ h1 {
         background: transparent;
     }
 
-    .page-shell::before,
-    .page-shell::after {
-        width: 190px;
-        height: 190px;
-        opacity: 0.58;
-    }
-
     .card {
         min-height: 100vh;
         width: 100%;
@@ -294,7 +248,7 @@ h1 {
     }
 
     .monogram {
-        font-size: 1.07rem;
+        font-size: 1.2rem;
         letter-spacing: 0.08em;
         margin-bottom: 24px;
     }
