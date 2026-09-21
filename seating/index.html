@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="theme-color" content="#ffffff">
+    <title>Find Your Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page-shell">
+        <section class="card" aria-labelledby="page-title">
+            <div class="monogram" aria-hidden="true">Z <span>&amp;</span> R</div>
+            <p class="eyebrow">Welcome</p>
+            <h1 id="page-title">Find Your Table</h1>
+            <p class="intro">Enter your name below to find your table.</p>
+
+            <div class="search-wrap">
+                <label for="guest-search" class="sr-only">Guest name</label>
+                <input
+                    id="guest-search"
+                    type="search"
+                    inputmode="search"
+                    autocomplete="off"
+                    autocapitalize="words"
+                    spellcheck="false"
+                    placeholder="Type your name"
+                    aria-describedby="search-help"
+                >
+                <p id="search-help" class="help-text">You can enter a first name, last name, or part of a name.</p>
+            </div>
+
+            <div id="results" class="results" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <script src="guests.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
