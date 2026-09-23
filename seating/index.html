@@ -83,8 +83,8 @@
             }
 
             // Fixed timer from page render: SVG loading time is not added on top.
-            // The art finishes around 2.6s, then stays visible for about 1 second.
-            window.setTimeout(finishIntro, prefersReducedMotion ? 250 : 3600);
+            // Keep the completed photo visible about one second longer before fading.
+            window.setTimeout(finishIntro, prefersReducedMotion ? 250 : 4600);
         })();
     </script>
 </body>
